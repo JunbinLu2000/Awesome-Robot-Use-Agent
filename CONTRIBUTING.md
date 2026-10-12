@@ -13,6 +13,7 @@ We collect robot-use agents and resources that help build or evaluate them. Prep
 | Section | Add here |
 | --- | --- |
 | **Articles** | Research blogs, introductions, and perspectives. |
+| **Learning Resources** | Tutorials, courses, talks, and interviews. Use a simple list: title/link, speaker or organization, date, and one-sentence summary. |
 | **Papers** | Surveys, methods, datasets, benchmark papers, and relevant self-improvement research. |
 | **Projects → Systems & Frameworks** | Agent systems and robot integration frameworks. |
 | **Projects → Environment & Sandbox** | Simulators and environments for robot interaction. |

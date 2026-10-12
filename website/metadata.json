@@ -4598,5 +4598,65 @@
         "url": "https://www.berkeley.edu/"
       }
     ]
+  },
+  "https://arxiv.org/abs/2310.12931": {
+    "date": "2023-10-19",
+    "authors": [
+      "Yecheng Jason Ma",
+      "William Liang",
+      "Guanzhi Wang",
+      "De-An Huang",
+      "Osbert Bastani",
+      "Dinesh Jayaraman",
+      "Yuke Zhu",
+      "Linxi Fan",
+      "Anima Anandkumar"
+    ],
+    "source": "https://eureka-research.github.io/",
+    "date_source": "https://arxiv.org/abs/2310.12931",
+    "institutions": [
+      {
+        "name": "NVIDIA",
+        "url": "https://www.nvidia.com/",
+        "logo": "institutions/479f42ca565a.ico",
+        "logo_source": "https://www.nvidia.com/favicon.ico"
+      },
+      {
+        "name": "University of Pennsylvania",
+        "url": "https://www.upenn.edu/"
+      },
+      {
+        "name": "Caltech",
+        "url": "https://www.caltech.edu/"
+      },
+      {
+        "name": "UT Austin",
+        "url": "https://www.utexas.edu/",
+        "logo": "institutions/7c355c523656.ico",
+        "logo_source": "https://www.utexas.edu/favicon.ico"
+      }
+    ],
+    "publication": {
+      "venue": "ICLR",
+      "year": 2024,
+      "source": "https://arxiv.org/abs/2310.12931",
+      "checked_at": "2026-10-12"
+    }
+  },
+  "https://www.youtube.com/watch?v=Hco-tpjsEuc": {
+    "source": "https://www.youtube.com/watch?v=Hco-tpjsEuc",
+    "date": "2026-10-10",
+    "date_source": "https://www.youtube.com/watch?v=Hco-tpjsEuc",
+    "authors": [
+      "hu-po"
+    ]
+  },
+  "https://www.youtube.com/watch?v=9YioJzz0tpk": {
+    "source": "https://www.youtube.com/watch?v=9YioJzz0tpk",
+    "date": "2025-02-08",
+    "date_source": "https://www.youtube.com/watch?v=9YioJzz0tpk",
+    "authors": [
+      "hu-po"
+    ]
   }
 }

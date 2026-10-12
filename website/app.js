@@ -160,7 +160,9 @@ function update() {
       disclosure.hidden = !disclosure.querySelector('.entry:not([hidden])');
       if ((terms.length || demoFilter.value !== 'all' || demoTask.value !== 'all' || codeFilter.checked) && !disclosure.hidden) disclosure.open = true;
     }
-    group.hidden = matches === 0;
+    const emptyCategory = !group.querySelector('.entry') && (category === 'all' || category === group.dataset.category)
+      && terms.length === 0 && demoFilter.value === 'all' && demoTask.value === 'all' && !codeFilter.checked;
+    group.hidden = matches === 0 && !emptyCategory;
     group.querySelector('.group-heading > span').textContent = String(matches).padStart(2, '0');
     count += matches;
   }
@@ -176,7 +178,7 @@ function update() {
   const selected = filters.find(button => button.dataset.filter === category);
   for (const button of filters) button.setAttribute('aria-pressed', String(button === selected));
   document.querySelector('#result-count').textContent = `${count} ${count === 1 ? 'entry' : 'entries'} · ${category === 'all' ? 'all categories' : selected.firstElementChild.textContent}`;
-  document.querySelector('#empty').hidden = count !== 0;
+  document.querySelector('#empty').hidden = count !== 0 || groups.some(group => !group.hidden);
   clear.hidden = category === 'all' && terms.length === 0 && demoFilter.value === 'all' && demoTask.value === 'all' && !codeFilter.checked && demoOrder.value === 'curated' && readingLists.every(list => list.order === 'newest');
   document.querySelector('#resource-list').classList.toggle('is-filtering', terms.length > 0 || demoFilter.value !== 'all' || demoTask.value !== 'all' || codeFilter.checked);
 }

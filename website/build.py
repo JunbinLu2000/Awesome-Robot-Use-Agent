@@ -260,6 +260,17 @@ def build():
             if title == 'Papers':
                 listing = f'<div class="paper-list">{listing}</div>'
             table.replace_with(BeautifulSoup(listing, 'html.parser'))
+        if title == 'Learning Resources':
+            for listing in content.find_all('ul'):
+                listing['class'] = ['learning-list']
+                for item in listing.find_all('li', recursive=False):
+                    link = item.find('a', href=True)
+                    if not link:
+                        continue
+                    item['class'] = ['entry', 'learning-entry']
+                    item['id'] = f'{ident}-entry-{count}'
+                    item['data-date'] = reading_metadata.get(link['href'], {}).get('date', '')
+                    count += 1
         if title == 'Articles':
             for listing in list(content.find_all('ul')):
                 rows = []

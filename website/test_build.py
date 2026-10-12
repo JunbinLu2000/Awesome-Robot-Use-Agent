@@ -61,15 +61,21 @@ class WebsiteTest(unittest.TestCase):
             ('h4', 'Environment & Sandbox'), ('h4', 'Tools & Utilities'),
             ('h3', 'Social Demos'),
         ])
-        self.assertEqual([h.get_text() for h in page.select('.group-heading h2')], ['Articles', 'Papers', 'Projects', 'Datasets', 'Benchmarks'])
+        self.assertEqual([h.get_text() for h in page.select('.group-heading h2')], ['Articles', 'Papers', 'Projects', 'Datasets', 'Benchmarks', 'Learning Resources'])
         self.assertEqual([h.get_text() for h in page.select('#papers h3')], ['Surveys', 'Methods & Frameworks', 'Dataset Papers', 'Benchmarks'])
         self.assertIsNotNone(page.select_one('#papers h3#benchmarks'))
         self.assertIsNotNone(page.select_one('section#benchmarks-1'))
-        for ident, count in [('articles', 8), ('papers', 74), ('datasets', 4), ('benchmarks-1', 26)]:
+        self.assertIsNotNone(page.select_one('[data-filter="learning-resources"]'))
+        self.assertEqual(len(page.select('#learning-resources .entry')), 2)
+        self.assertEqual([a['href'] for a in page.select('#learning-resources .entry strong a')], ['https://www.youtube.com/watch?v=Hco-tpjsEuc', 'https://www.youtube.com/watch?v=9YioJzz0tpk'])
+        self.assertEqual([e['data-date'] for e in page.select('#learning-resources .entry')], ['2026-10-10', '2025-02-08'])
+        self.assertLess(source.index('\n## Benchmarks\n'), source.index('\n## Learning Resources\n'))
+        self.assertLess(source.index('\n## Learning Resources\n'), source.index('\n## 🤝 Contributing\n'))
+        for ident, count in [('articles', 8), ('papers', 75), ('datasets', 4), ('benchmarks-1', 26)]:
             self.assertEqual(len(page.select(f'#{ident} .entry')), count)
         self.assertNotIn('Closed-source multimodal model families', page.select_one('#projects').get_text())
         disclosures = page.select('#projects details.project-group')
-        self.assertEqual([len(d.select('.entry')) for d in disclosures], [8, 12, 28, 61])
+        self.assertEqual([len(d.select('.entry')) for d in disclosures], [8, 13, 28, 61])
         self.assertEqual([d.has_attr('open') for d in disclosures], [False, False, False, True])
         policy_eval = disclosures[2].find("a", href="https://github.com/anonymous-report-421/eval-of-gpt-6-astra-as-policy").find_parent(class_="entry")
         self.assertIn("10 RoboDojo tasks", policy_eval.get_text())
@@ -101,7 +107,7 @@ class WebsiteTest(unittest.TestCase):
             self.assertEqual(dates, sorted(dates, reverse=True))
             self.assertEqual([b.get_text() for b in page.select(f'#{section} [data-reading-sort]')], ['Newest', 'Most stars', 'Most cited'])
         self.assertFalse(page.select('#papers .preview-table'))
-        self.assertEqual(len(page.select('#papers .reading-entry')), 74)
+        self.assertEqual(len(page.select('#papers .reading-entry')), 75)
         self.assertEqual(len(page.select('#articles .reading-entry')), 8)
         for card in page.select('.reading-entry'):
             link_labels = [a.get_text(strip=True) for a in card.select('.reading-links a')]
