@@ -5264,5 +5264,31 @@
       "source": "https://arxiv.org/abs/2610.00854",
       "checked_at": "2026-10-13"
     }
+  },
+  "https://arxiv.org/abs/2610.12369": {
+    "date": "2026-10-08",
+    "authors": [
+      "Kairui Hu",
+      "Siyuan Hu",
+      "Fangzhou Hong",
+      "Zhaoxi Chen",
+      "Ziwei Liu"
+    ],
+    "source": "https://arxiv.org/abs/2610.12369",
+    "date_source": "https://arxiv.org/abs/2610.12369",
+    "institutions": [
+      {
+        "name": "Nanyang Technological University"
+      },
+      {
+        "name": "Ropedia"
+      }
+    ],
+    "publication": {
+      "venue": "ArXiv",
+      "year": 2026,
+      "source": "https://arxiv.org/abs/2610.12369",
+      "checked_at": "2026-10-14"
+    }
   }
 }

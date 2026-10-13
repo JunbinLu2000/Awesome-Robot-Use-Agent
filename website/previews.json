@@ -422,5 +422,9 @@
   "https://arxiv.org/abs/2610.00854": {
     "image": "previews/embodied-agent-arena.jpg",
     "source": "https://arxiv.org/pdf/2610.00854"
+  },
+  "https://arxiv.org/abs/2610.12369": {
+    "image": "previews/5d0025a257e8df1b.jpg",
+    "source": "https://arxiv.org/pdf/2610.12369"
   }
 }

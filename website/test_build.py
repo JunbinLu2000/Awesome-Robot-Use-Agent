@@ -71,7 +71,7 @@ class WebsiteTest(unittest.TestCase):
         self.assertEqual([e['data-date'] for e in page.select('#learning-resources .entry')], ['2026-10-10', '2025-02-08'])
         self.assertLess(source.index('\n## Benchmarks\n'), source.index('\n## Learning Resources\n'))
         self.assertLess(source.index('\n## Learning Resources\n'), source.index('\n## 🤝 Contributing\n'))
-        for ident, count in [('articles', 8), ('papers', 91), ('datasets', 4), ('benchmarks-1', 28)]:
+        for ident, count in [('articles', 8), ('papers', 92), ('datasets', 4), ('benchmarks-1', 28)]:
             self.assertEqual(len(page.select(f'#{ident} .entry')), count)
         self.assertNotIn('Closed-source multimodal model families', page.select_one('#projects').get_text())
         disclosures = page.select('#projects details.project-group')
@@ -107,7 +107,7 @@ class WebsiteTest(unittest.TestCase):
             self.assertEqual(dates, sorted(dates, reverse=True))
             self.assertEqual([b.get_text() for b in page.select(f'#{section} [data-reading-sort]')], ['Newest', 'Most stars', 'Most cited'])
         self.assertFalse(page.select('#papers .preview-table'))
-        self.assertEqual(len(page.select('#papers .reading-entry')), 91)
+        self.assertEqual(len(page.select('#papers .reading-entry')), 92)
         self.assertEqual(len(page.select('#articles .reading-entry')), 8)
         for card in page.select('.reading-entry'):
             link_labels = [a.get_text(strip=True) for a in card.select('.reading-links a')]
