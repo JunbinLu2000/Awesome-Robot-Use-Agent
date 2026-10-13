@@ -5132,5 +5132,137 @@
       "source": "https://arxiv.org/abs/2310.12931",
       "checked_at": "2026-10-12"
     }
+  },
+  "https://arxiv.org/abs/2502.01536": {
+    "date": "2025-02-03",
+    "authors": [
+      "Shaoting Zhu",
+      "Linzhan Mou",
+      "Derun Li",
+      "Baijun Ye",
+      "Runhan Huang",
+      "Hang Zhao"
+    ],
+    "source": "https://vr-robo.github.io/",
+    "date_source": "https://arxiv.org/abs/2502.01536",
+    "institutions": [
+      {
+        "name": "Tsinghua University"
+      },
+      {
+        "name": "Shanghai Qi Zhi Institute"
+      },
+      {
+        "name": "Galaxea AI"
+      },
+      {
+        "name": "Shanghai Jiao Tong University"
+      }
+    ],
+    "publication": {
+      "venue": "RA-L",
+      "year": 2025,
+      "source": "https://vr-robo.github.io/",
+      "checked_at": "2026-10-13"
+    }
+  },
+  "https://arxiv.org/abs/2403.03949": {
+    "date": "2024-03-06",
+    "authors": [
+      "Marcel Torne",
+      "Anthony Simeonov",
+      "Zechu Li",
+      "April Chan",
+      "Tao Chen",
+      "Abhishek Gupta",
+      "Pulkit Agrawal"
+    ],
+    "source": "https://real-to-sim-to-real.github.io/RialTo/",
+    "date_source": "https://arxiv.org/abs/2403.03949",
+    "institutions": [
+      {
+        "name": "Massachusetts Institute of Technology"
+      },
+      {
+        "name": "University of Washington"
+      },
+      {
+        "name": "TU Darmstadt"
+      }
+    ],
+    "publication": {
+      "venue": "RSS",
+      "year": 2024,
+      "source": "https://real-to-sim-to-real.github.io/RialTo/",
+      "checked_at": "2026-10-13"
+    }
+  },
+  "https://arxiv.org/abs/2610.00854": {
+    "date": "2026-10-01",
+    "authors": [
+      "Haojian Huang",
+      "Pukun Zhao",
+      "Zexi Li",
+      "Yehang Zhang",
+      "Yangkai Wei",
+      "Wenqian Li",
+      "Han Yang",
+      "Kaiwen Zhou",
+      "Ying-Cong Chen",
+      "Yinchuan Li"
+    ],
+    "source": "https://github.com/embodied-agent-arena/embodied-agent-arena",
+    "date_source": "https://arxiv.org/abs/2610.00854",
+    "institutions": [
+      {
+        "name": "Hong Kong University of Science and Technology (Guangzhou)"
+      },
+      {
+        "name": "The Chinese University of Hong Kong"
+      },
+      {
+        "name": "Knowin AI"
+      }
+    ],
+    "publication": {
+      "venue": "ArXiv",
+      "year": 2026,
+      "source": "https://arxiv.org/abs/2610.00854",
+      "checked_at": "2026-10-13"
+    }
+  },
+  "https://embodied-agent-arena.github.io/embodied-agent-arena/": {
+    "date": "2026-10-01",
+    "authors": [
+      "Haojian Huang",
+      "Pukun Zhao",
+      "Zexi Li",
+      "Yehang Zhang",
+      "Yangkai Wei",
+      "Wenqian Li",
+      "Han Yang",
+      "Kaiwen Zhou",
+      "Ying-Cong Chen",
+      "Yinchuan Li"
+    ],
+    "source": "https://github.com/embodied-agent-arena/embodied-agent-arena",
+    "date_source": "https://arxiv.org/abs/2610.00854",
+    "institutions": [
+      {
+        "name": "Hong Kong University of Science and Technology (Guangzhou)"
+      },
+      {
+        "name": "The Chinese University of Hong Kong"
+      },
+      {
+        "name": "Knowin AI"
+      }
+    ],
+    "publication": {
+      "venue": "ArXiv",
+      "year": 2026,
+      "source": "https://arxiv.org/abs/2610.00854",
+      "checked_at": "2026-10-13"
+    }
   }
 }
