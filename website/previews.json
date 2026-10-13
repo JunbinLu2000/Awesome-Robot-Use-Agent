@@ -283,6 +283,14 @@
     "image": "assets/previews/robotworld.png",
     "source": "https://arxiv.org/html/2610.10409v1/overview.png"
   },
+  "https://arxiv.org/abs/2610.10388": {
+    "image": "previews/roboquest.jpg",
+    "source": "https://arxiv.org/pdf/2610.10388"
+  },
+  "https://declare-lab.github.io/RoboQuest/": {
+    "image": "assets/previews/roboquest.png",
+    "source": "https://arxiv.org/html/2610.10388v1/task_illustration_v2.png"
+  },
   "https://sear.bot/": {
     "image": "assets/previews/sear.jpg",
     "source": "https://github.com/Self-Evolving-Agentic-Robotics/SEAR/blob/main/assets/testbed.jpg"

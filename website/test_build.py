@@ -71,7 +71,7 @@ class WebsiteTest(unittest.TestCase):
         self.assertEqual([e['data-date'] for e in page.select('#learning-resources .entry')], ['2026-10-10', '2025-02-08'])
         self.assertLess(source.index('\n## Benchmarks\n'), source.index('\n## Learning Resources\n'))
         self.assertLess(source.index('\n## Learning Resources\n'), source.index('\n## 🤝 Contributing\n'))
-        for ident, count in [('articles', 8), ('papers', 88), ('datasets', 4), ('benchmarks-1', 27)]:
+        for ident, count in [('articles', 8), ('papers', 89), ('datasets', 5), ('benchmarks-1', 28)]:
             self.assertEqual(len(page.select(f'#{ident} .entry')), count)
         self.assertNotIn('Closed-source multimodal model families', page.select_one('#projects').get_text())
         disclosures = page.select('#projects details.project-group')
@@ -84,8 +84,8 @@ class WebsiteTest(unittest.TestCase):
         self.assertEqual([d.select_one('summary > h4').get_text() for d in disclosures[:3]], ['Systems & Frameworks', 'Environment & Sandbox', 'Tools & Utilities'])
         self.assertNotRegex(page.select_one('#projects').get_text(), r'Browse \d+ resources')
         self.assertEqual(len(page.select('#projects .demo-card')), 61)
-        self.assertEqual(len(page.select('#benchmarks-1 .reading-cover img')), 27)
-        self.assertEqual(len(page.select('#benchmarks-1 .reading-entry')), 27)
+        self.assertEqual(len(page.select('#benchmarks-1 .reading-cover img')), 28)
+        self.assertEqual(len(page.select('#benchmarks-1 .reading-entry')), 28)
         self.assertFalse(page.select('#benchmarks-1 .preview-table'))
         benchmark_source = read_readme(source.rsplit('## Benchmarks\n', 1)[1].split('\n## ', 1)[0])
         for index, row in enumerate(benchmark_source.select('tbody tr')):
@@ -107,7 +107,7 @@ class WebsiteTest(unittest.TestCase):
             self.assertEqual(dates, sorted(dates, reverse=True))
             self.assertEqual([b.get_text() for b in page.select(f'#{section} [data-reading-sort]')], ['Newest', 'Most stars', 'Most cited'])
         self.assertFalse(page.select('#papers .preview-table'))
-        self.assertEqual(len(page.select('#papers .reading-entry')), 88)
+        self.assertEqual(len(page.select('#papers .reading-entry')), 89)
         self.assertEqual(len(page.select('#articles .reading-entry')), 8)
         for card in page.select('.reading-entry'):
             link_labels = [a.get_text(strip=True) for a in card.select('.reading-links a')]
@@ -154,7 +154,7 @@ class WebsiteTest(unittest.TestCase):
             self.assertIsNotNone(card.select_one('a[href*="huggingface.co"]'))
         show_harness = page.select_one('#papers [data-citation-id="ARXIV:2609.10522"]').find_parent('article')
         self.assertNotIn('Show-Harness Data', page.select_one('#papers').get_text())
-        dataset = page.select_one('#datasets .entry')
+        dataset = next(e for e in page.select('#datasets .entry') if e.select_one('.entry-title').get_text() == 'Show-Harness Data')
         self.assertEqual(dataset.select_one('.entry-title').get_text(), 'Show-Harness Data')
         self.assertNotIn('Guava-Agent-4B training data', page.select_one('#papers').get_text())
         guava_data = next(e for e in page.select('#datasets .entry') if e.select_one('.entry-title').get_text() == 'Guava-Agent-4B training data')
