@@ -5081,6 +5081,23 @@
       "hu-po"
     ]
   },
+  "https://www.youtube.com/watch?v=UwfjzyLnvMg": {
+    "source": "https://www.youtube.com/watch?v=UwfjzyLnvMg",
+    "date": "2026-09-08",
+    "date_source": "https://www.youtube.com/watch?v=UwfjzyLnvMg",
+    "authors": [
+      "Daniel Fried",
+      "Graham Neubig"
+    ]
+  },
+  "https://www.youtube.com/watch?v=6YnLB0XbTnI": {
+    "source": "https://www.youtube.com/watch?v=6YnLB0XbTnI",
+    "date": "2026-08-03",
+    "date_source": "https://www.youtube.com/watch?v=6YnLB0XbTnI",
+    "authors": [
+      "Stanford Online"
+    ]
+  },
   "https://www.youtube.com/watch?v=9YioJzz0tpk": {
     "source": "https://www.youtube.com/watch?v=9YioJzz0tpk",
     "date": "2025-02-08",

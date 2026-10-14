@@ -4,7 +4,7 @@
 
 # Awesome Robot Use Agent (RUA)
 
-[![Awesome](https://img.shields.io/badge/Awesome-List-111111.svg?style=for-the-badge&labelColor=000000&logo=awesomelists&logoColor=white)](https://awesome.re) [![Website](https://img.shields.io/badge/Website-Visit-111111.svg?style=for-the-badge&labelColor=000000&logo=githubpages&logoColor=white)](https://kairunwen.github.io/Awesome-Robot-Use-Agent/) [![Resources](https://img.shields.io/badge/Resources-245-111111.svg?style=for-the-badge&labelColor=000000&logo=readthedocs&logoColor=white)](#contents) [![Tools](https://img.shields.io/badge/Tools-28-111111.svg?style=for-the-badge&labelColor=000000&logo=ros&logoColor=white)](#tools--utilities) [![Demo](https://img.shields.io/badge/Demo-61-111111.svg?style=for-the-badge&labelColor=000000&logo=x&logoColor=white)](#social-demos)
+[![Awesome](https://img.shields.io/badge/Awesome-List-111111.svg?style=for-the-badge&labelColor=000000&logo=awesomelists&logoColor=white)](https://awesome.re) [![Website](https://img.shields.io/badge/Website-Visit-111111.svg?style=for-the-badge&labelColor=000000&logo=githubpages&logoColor=white)](https://kairunwen.github.io/Awesome-Robot-Use-Agent/) [![Resources](https://img.shields.io/badge/Resources-247-111111.svg?style=for-the-badge&labelColor=000000&logo=readthedocs&logoColor=white)](#contents) [![Tools](https://img.shields.io/badge/Tools-28-111111.svg?style=for-the-badge&labelColor=000000&logo=ros&logoColor=white)](#tools--utilities) [![Demo](https://img.shields.io/badge/Demo-61-111111.svg?style=for-the-badge&labelColor=000000&logo=x&logoColor=white)](#social-demos)
 <br>
 [![Discord Join](https://img.shields.io/badge/Discord-Join-111111.svg?style=for-the-badge&labelColor=000000&logo=discord&logoColor=white)](https://discord.gg/rpBvfef4b) [![PRs welcome](https://img.shields.io/badge/PRs-Welcome-111111.svg?style=for-the-badge&labelColor=000000&logo=git&logoColor=white)](#-contributing) [![License: MIT](https://img.shields.io/badge/License-MIT-111111.svg?style=for-the-badge&labelColor=000000)](LICENSE) [![GitHub Stars](https://img.shields.io/github/stars/kairunwen/Awesome-Robot-Use-Agent?style=for-the-badge&label=Stars&labelColor=000000&color=111111&logo=github&logoColor=white)](https://github.com/kairunwen/Awesome-Robot-Use-Agent) [![Kairun Follow](https://img.shields.io/badge/Kairun-Follow-111111.svg?style=for-the-badge&labelColor=000000&logo=x&logoColor=white)](https://x.com/KairunWen)
 
@@ -685,9 +685,13 @@ Datasets and resource directories for robot-use agents.
 
 Tutorials, courses, talks, and interviews for learning about robot-use agents.
 
-- **[Agentic Robotics](https://www.youtube.com/watch?v=Hco-tpjsEuc)** — hu-po · 2026-10-10 · 1h 34m · **Paper walkthrough**. Explains ENPIRE, ASPIRE, and GaP, connecting coding agents, reusable robot skills, and iterative policy improvement.
+- <a href="https://www.youtube.com/watch?v=Hco-tpjsEuc"><img alt="YouTube" align="texttop" src="https://img.shields.io/badge/YouTube-C75B55?style=flat-square&amp;logo=youtube&amp;logoColor=white"/></a> **[Agentic Robotics](https://www.youtube.com/watch?v=Hco-tpjsEuc)** — hu-po · 2026-10-10 · 1h 34m · **Paper walkthrough**. Explains ENPIRE, ASPIRE, and GaP, connecting coding agents, reusable robot skills, and iterative policy improvement.
 
-- **[Real2Sim2Real](https://www.youtube.com/watch?v=9YioJzz0tpk)** — hu-po · 2025-02-08 · 1h 50m · **Paper walkthrough**. Discusses real-to-simulation-to-real learning, digital twins, and reinforcement learning, with a focus on ASAP and humanoid whole-body skills.
+- <a href="https://www.youtube.com/watch?v=9YioJzz0tpk"><img alt="YouTube" align="texttop" src="https://img.shields.io/badge/YouTube-C75B55?style=flat-square&amp;logo=youtube&amp;logoColor=white"/></a> **[Real2Sim2Real](https://www.youtube.com/watch?v=9YioJzz0tpk)** — hu-po · 2025-02-08 · 1h 50m · **Paper walkthrough**. Discusses real-to-simulation-to-real learning, digital twins, and reinforcement learning, with a focus on ASAP and humanoid whole-body skills.
+
+- <a href="https://www.youtube.com/watch?v=UwfjzyLnvMg"><img alt="YouTube" align="texttop" src="https://img.shields.io/badge/YouTube-C75B55?style=flat-square&amp;logo=youtube&amp;logoColor=white"/></a> **[CMU AI Agents 2026: What Are Agents and How Do They Work?](https://www.youtube.com/watch?v=UwfjzyLnvMg)** — Daniel Fried & Graham Neubig · 2026-09-08 · 1h 08m · **Course lecture**. Introduces AI agents and how they work in the opening lecture of CMU’s CS 11-768 course.
+
+- <a href="https://www.youtube.com/watch?v=6YnLB0XbTnI"><img alt="YouTube" align="texttop" src="https://img.shields.io/badge/YouTube-C75B55?style=flat-square&amp;logo=youtube&amp;logoColor=white"/></a> **[Stanford CS329A: Self-Improving AI Agents — Course Overview](https://www.youtube.com/watch?v=6YnLB0XbTnI)** — Stanford Online · 2026-08-03 · 1h 10m · **Course overview**. Introduces Stanford’s curriculum on self-improving AI agents.
 
 
 ---

@@ -118,8 +118,10 @@ def build():
         cell = img.find_parent('td')
         table = img.find_parent('table')
         is_preview = cell and not cell.find_previous_sibling('td') and table.find('th').get_text(strip=True) == 'Preview'
-        if not is_preview and not img.find_parent(class_="guide-visual"):
-            img.decompose()  # Keep resource previews and the guide illustration; remove badges.
+        badge_link = img.find_parent('a', href=True)
+        is_youtube_badge = img.get('alt') == 'YouTube' and badge_link and badge_link['href'].startswith('https://www.youtube.com/watch?v=')
+        if not is_preview and not img.find_parent(class_="guide-visual") and not is_youtube_badge:
+            img.decompose()  # Keep resource previews, the guide illustration, and YouTube badges.
     for link in list(soup.select('a[href]')):
         if not link.get_text(strip=True) and not link.find(['picture', 'img']):
             link.decompose()
