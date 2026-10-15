@@ -3849,6 +3849,56 @@
       "checked_at": "2026-10-09"
     }
   },
+  "https://arxiv.org/abs/2610.10388": {
+    "date": "2026-10-07",
+    "authors": [
+      "Liu Renhang",
+      "Navonil Majumder",
+      "Tej Deep Pala",
+      "Soujanya Poria"
+    ],
+    "source": "https://arxiv.org/pdf/2610.10388",
+    "date_source": "https://arxiv.org/abs/2610.10388",
+    "institutions": [
+      {
+        "name": "Nanyang Technological University",
+        "url": "https://www.ntu.edu.sg/",
+        "logo": "institutions/e6e97fc8806a.png",
+        "logo_source": "https://www.ntu.edu.sg/ResourcePackages/NTU/assets/images/favicon.png"
+      }
+    ],
+    "publication": {
+      "venue": "arXiv",
+      "year": 2026,
+      "source": "https://arxiv.org/abs/2610.10388",
+      "checked_at": "2026-10-13"
+    }
+  },
+  "https://declare-lab.github.io/RoboQuest/": {
+    "date": "2026-10-07",
+    "authors": [
+      "Liu Renhang",
+      "Navonil Majumder",
+      "Tej Deep Pala",
+      "Soujanya Poria"
+    ],
+    "source": "https://arxiv.org/pdf/2610.10388",
+    "date_source": "https://arxiv.org/abs/2610.10388",
+    "institutions": [
+      {
+        "name": "Nanyang Technological University",
+        "url": "https://www.ntu.edu.sg/",
+        "logo": "institutions/e6e97fc8806a.png",
+        "logo_source": "https://www.ntu.edu.sg/ResourcePackages/NTU/assets/images/favicon.png"
+      }
+    ],
+    "publication": {
+      "venue": "arXiv",
+      "year": 2026,
+      "source": "https://arxiv.org/abs/2610.10388",
+      "checked_at": "2026-10-13"
+    }
+  },
   "https://github.com/Self-Evolving-Agentic-Robotics/SEAR": {
     "date": "2026-10-03",
     "authors": [
