@@ -434,5 +434,13 @@
   "https://arxiv.org/abs/2610.12369": {
     "image": "previews/5d0025a257e8df1b.jpg",
     "source": "https://arxiv.org/pdf/2610.12369"
+  },
+  "https://arxiv.org/abs/2610.10479": {
+    "image": "https://agentic-rsr.github.io/assets/overview.png",
+    "source": "https://agentic-rsr.github.io/"
+  },
+  "https://arxiv.org/abs/2610.18867": {
+    "image": "https://raw.githubusercontent.com/Einsia/EmbodiedEvo/main/docs/images/embodiedevo-hero.png",
+    "source": "https://lab.einsia.ai/embodiedevo/"
   }
 }

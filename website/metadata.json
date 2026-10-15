@@ -5420,5 +5420,68 @@
       "source": "https://arxiv.org/abs/2610.20442",
       "checked_at": "2026-10-15"
     }
+  },
+  "https://arxiv.org/abs/2610.10479": {
+    "date": "2026-10-07",
+    "authors": [
+      "Yihan Li",
+      "Yating Feng",
+      "Shengjiu Sun",
+      "Jianing Chen",
+      "Hao Ren",
+      "Bowen Yang",
+      "Weisheng Xu",
+      "Qiwei Wu",
+      "Hui Cheng",
+      "Renjing Xu"
+    ],
+    "source": "https://arxiv.org/abs/2610.10479",
+    "date_source": "https://arxiv.org/abs/2610.10479",
+    "institutions": [
+      {
+        "name": "HKUST (Guangzhou)"
+      },
+      {
+        "name": "Sun Yat-sen University"
+      }
+    ],
+    "publication": {
+      "venue": "arXiv",
+      "year": 2026,
+      "source": "https://arxiv.org/abs/2610.10479",
+      "checked_at": "2026-10-15"
+    }
+  },
+  "https://arxiv.org/abs/2610.18867": {
+    "date": "2026-10-13",
+    "authors": [
+      "Wenyi Li",
+      "Yizhe Chi",
+      "Youjie Zheng",
+      "Chunyu Liu",
+      "Xiaoqiu Wang",
+      "Mingju Gao",
+      "Zheng Jiang",
+      "Deyao Hong",
+      "Calvin Xiao",
+      "Kaisen Yang",
+      "Qinhuai Na"
+    ],
+    "source": "https://arxiv.org/abs/2610.18867",
+    "date_source": "https://arxiv.org/abs/2610.18867",
+    "institutions": [
+      {
+        "name": "Navers Lab, Einsia.AI"
+      },
+      {
+        "name": "Tsinghua University"
+      }
+    ],
+    "publication": {
+      "venue": "arXiv",
+      "year": 2026,
+      "source": "https://arxiv.org/abs/2610.18867",
+      "checked_at": "2026-10-15"
+    }
   }
 }
