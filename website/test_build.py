@@ -74,7 +74,7 @@ class WebsiteTest(unittest.TestCase):
         self.assertTrue(all(img.get('align') == 'texttop' for img in page.select('#learning-resources img[alt="YouTube"]')))
         self.assertLess(source.index('\n## Benchmarks\n'), source.index('\n## Learning Resources\n'))
         self.assertLess(source.index('\n## Learning Resources\n'), source.index('\n## 🤝 Contributing\n'))
-        for ident, count in [('articles', 8), ('papers', 92), ('datasets', 4), ('benchmarks-1', 28)]:
+        for ident, count in [('articles', 8), ('papers', 93), ('datasets', 4), ('benchmarks-1', 29)]:
             self.assertEqual(len(page.select(f'#{ident} .entry')), count)
         self.assertNotIn('Closed-source multimodal model families', page.select_one('#projects').get_text())
         disclosures = page.select('#projects details.project-group')
@@ -88,7 +88,9 @@ class WebsiteTest(unittest.TestCase):
         self.assertNotRegex(page.select_one('#projects').get_text(), r'Browse \d+ resources')
         self.assertEqual(len(page.select('#projects .demo-card')), 61)
         self.assertEqual(len(page.select('#benchmarks-1 .reading-cover img')), 28)
-        self.assertEqual(len(page.select('#benchmarks-1 .reading-entry')), 28)
+        self.assertEqual(len(page.select('#benchmarks-1 .reading-entry')), 29)
+        self.assertIsNotNone(page.select_one('#papers .reading-entry a[href="https://arxiv.org/abs/2609.39207"]'))
+        self.assertIsNotNone(page.select_one('#benchmarks-1 .reading-entry a[href="https://robouse.ai/hub/leaderboard/"]'))
         self.assertFalse(page.select('#benchmarks-1 .preview-table'))
         benchmark_source = read_readme(source.rsplit('## Benchmarks\n', 1)[1].split('\n## ', 1)[0])
         for index, row in enumerate(benchmark_source.select('tbody tr')):
@@ -96,7 +98,13 @@ class WebsiteTest(unittest.TestCase):
             cells = row.find_all('td')
             self.assertIn(cells[3].get_text(' ', strip=True), card.select_one('.reading-environment').get_text(' ', strip=True))
             self.assertEqual(cells[2].get_text(' ', strip=True).split(' · ')[0], card['data-date'])
-            self.assertEqual(cells[0].find('img')['src'], card.select_one('.reading-cover img')['src'])
+            source_image = cells[0].find('img')
+            rendered_image = card.select_one('.reading-cover img')
+            if source_image:
+                self.assertEqual(source_image['src'], rendered_image['src'])
+            else:
+                self.assertIsNone(rendered_image)
+                self.assertIn('Robo Use Leaderboard', card.select_one('.reading-cover').get_text(' ', strip=True))
             for link in row.select('a[href]'):
                 self.assertIsNotNone(card.find('a', href=link['href']), 'Benchmark source link lost')
             notes = cells[4].select_one('.entry-notes')
@@ -110,7 +118,7 @@ class WebsiteTest(unittest.TestCase):
             self.assertEqual(dates, sorted(dates, reverse=True))
             self.assertEqual([b.get_text() for b in page.select(f'#{section} [data-reading-sort]')], ['Newest', 'Most stars', 'Most cited'])
         self.assertFalse(page.select('#papers .preview-table'))
-        self.assertEqual(len(page.select('#papers .reading-entry')), 92)
+        self.assertEqual(len(page.select('#papers .reading-entry')), 93)
         self.assertEqual(len(page.select('#articles .reading-entry')), 8)
         for card in page.select('.reading-entry'):
             link_labels = [a.get_text(strip=True) for a in card.select('.reading-links a')]

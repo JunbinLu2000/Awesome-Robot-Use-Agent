@@ -5307,5 +5307,39 @@
       "source": "https://arxiv.org/abs/2610.12369",
       "checked_at": "2026-10-14"
     }
+  },
+  "https://arxiv.org/abs/2609.39207": {
+    "date": "2026-09-30",
+    "authors": [
+      "An-Chieh Cheng",
+      "Isabella Liu",
+      "Edmund Bu",
+      "Johan Bjorck",
+      "Hongxu Yin",
+      "Zhengyi Luo",
+      "Jan Kautz",
+      "Linxi \"Jim\" Fan",
+      "Yuke Zhu",
+      "Sifei Liu"
+    ],
+    "source": "https://research.nvidia.com/labs/gear/asena/",
+    "date_source": "https://arxiv.org/abs/2609.39207",
+    "publication": {
+      "venue": "arXiv",
+      "year": 2026,
+      "source": "https://arxiv.org/abs/2609.39207",
+      "checked_at": "2026-10-15"
+    }
+  },
+  "https://robouse.ai/hub/leaderboard/": {
+    "date": "2026-10-15",
+    "source": "https://robouse.ai/hub/leaderboard/data.json",
+    "date_source": "https://robouse.ai/hub/leaderboard/",
+    "publication": {
+      "venue": "Leaderboard",
+      "year": 2026,
+      "source": "https://robouse.ai/hub/leaderboard/",
+      "checked_at": "2026-10-15"
+    }
   }
 }
