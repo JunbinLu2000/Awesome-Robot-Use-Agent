@@ -39,6 +39,20 @@ The [public website](https://kairunwen.github.io/Awesome-Robot-Use-Agent/) is de
 
 In repository **Settings → Pages**, the source must be **GitHub Actions**. Failed validation stops deployment, leaving the previous published version available.
 
+## Hugging Face Space
+
+Space: https://huggingface.co/spaces/kairunwen/Awesome-Robot-Use-Agent
+
+Run `website/.venv/bin/python website/build_space.py` from the repository root.
+Upload the **contents** of `website/space-dist/` to a Hugging Face Space using
+the Static SDK. The generated README includes the Space configuration;
+no server, API key, or compute hardware is needed to run it.
+
+This reuses the catalogue build, local previews, search, filters, and sorting.
+External links open outside the Space iframe. GitHub Pages analytics and its
+page-view counter are omitted from this deployment. Rebuild and upload after
+updating the source catalogue; this package does not enable automatic syncing.
+
 ## Google Analytics
 
 GA4 property `553953217` uses web stream `15768875279` and measurement ID `G-BH0XB730MF`. The tag in `template.html` runs only on the production repository URL, sends one initial page view, and uses the canonical URL to combine query strings and anchors. Enhanced measurement is disabled in GA4; filters and hash navigation do not create additional page views. Local previews send no analytics. Run `node website/check_analytics.cjs` for the initialization check.

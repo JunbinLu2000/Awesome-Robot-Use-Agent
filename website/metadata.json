@@ -5391,5 +5391,34 @@
       "source": "https://robouse.ai/hub/leaderboard/",
       "checked_at": "2026-10-15"
     }
+  },
+  "https://arxiv.org/abs/2610.20442": {
+    "date": "2026-10-14",
+    "authors": [
+      "Chonghan Qin",
+      "Dongming Wu",
+      "Kaituo Feng",
+      "Jiaxu Wang",
+      "Xinlei Yu",
+      "Peiwen Sun",
+      "Yijia Fan",
+      "Xilin He",
+      "Bingao Chen",
+      "Weitong Lian",
+      "Ryan Ji",
+      "Wenqi Ren",
+      "Xiaobin Hu",
+      "Dahua Lin",
+      "Yu-Gang Jiang",
+      "Xiangyu Yue"
+    ],
+    "source": "https://arxiv.org/abs/2610.20442",
+    "date_source": "https://arxiv.org/abs/2610.20442",
+    "publication": {
+      "venue": "arXiv",
+      "year": 2026,
+      "source": "https://arxiv.org/abs/2610.20442",
+      "checked_at": "2026-10-15"
+    }
   }
 }

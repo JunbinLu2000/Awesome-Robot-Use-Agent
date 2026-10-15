@@ -61,7 +61,7 @@ class WebsiteTest(unittest.TestCase):
             ('h4', 'Environment & Sandbox'), ('h4', 'Tools & Utilities'),
             ('h3', 'Social Demos'),
         ])
-        self.assertEqual([h.get_text() for h in page.select('.group-heading h2')], ['Articles', 'Papers', 'Projects', 'Datasets', 'Benchmarks', 'Learning Resources'])
+        self.assertEqual([h.get_text() for h in page.select('.group-heading h2')], ['Articles', 'Papers', 'Projects', 'Datasets', 'Benchmarks', 'Learning Resources', 'Related Links'])
         self.assertEqual([h.get_text() for h in page.select('#papers h3')], ['Surveys', 'Methods & Frameworks', 'Dataset Papers', 'Benchmarks'])
         self.assertIsNotNone(page.select_one('#papers h3#benchmarks'))
         self.assertIsNotNone(page.select_one('section#benchmarks-1'))
@@ -74,17 +74,20 @@ class WebsiteTest(unittest.TestCase):
         self.assertTrue(all(img.get('align') == 'texttop' for img in page.select('#learning-resources img[alt="YouTube"]')))
         self.assertLess(source.index('\n## Benchmarks\n'), source.index('\n## Learning Resources\n'))
         self.assertLess(source.index('\n## Learning Resources\n'), source.index('\n## 🤝 Contributing\n'))
-        for ident, count in [('articles', 8), ('papers', 94), ('datasets', 5), ('benchmarks-1', 30)]:
+        for ident, count in [('articles', 8), ('papers', 95), ('datasets', 5), ('benchmarks-1', 30)]:
             self.assertEqual(len(page.select(f'#{ident} .entry')), count)
         self.assertNotIn('Closed-source multimodal model families', page.select_one('#projects').get_text())
         disclosures = page.select('#projects details.project-group')
-        self.assertEqual([len(d.select('.entry')) for d in disclosures], [8, 14, 28, 61])
+        self.assertEqual([len(d.select('.entry')) for d in disclosures], [9, 14, 28, 61])
         self.assertEqual([d.has_attr('open') for d in disclosures], [False, False, False, True])
         policy_eval = disclosures[2].find("a", href="https://github.com/anonymous-report-421/eval-of-gpt-6-astra-as-policy").find_parent(class_="entry")
         self.assertIn("10 RoboDojo tasks", policy_eval.get_text())
         self.assertIsNotNone(policy_eval.find("a", href="https://github.com/anonymous-report-421/eval-of-gpt-6-astra-as-policy/tree/main/public_results"))
         self.assertTrue(all(d.find('summary', recursive=False) for d in disclosures))
         self.assertEqual([d.select_one('summary > h4').get_text() for d in disclosures[:3]], ['Systems & Frameworks', 'Environment & Sandbox', 'Tools & Utilities'])
+        rax = disclosures[0].find('a', href='https://github.com/robot-agent-exploration/rax').find_parent(class_='entry')
+        self.assertIn('RAX', rax.get_text())
+        self.assertIsNotNone(rax.find('a', href='https://robot-agent-exploration.com/rax.pdf'))
         self.assertNotRegex(page.select_one('#projects').get_text(), r'Browse \d+ resources')
         self.assertEqual(len(page.select('#projects .demo-card')), 61)
         self.assertEqual(len(page.select('#benchmarks-1 .reading-cover img')), 29)
@@ -118,7 +121,10 @@ class WebsiteTest(unittest.TestCase):
             self.assertEqual(dates, sorted(dates, reverse=True))
             self.assertEqual([b.get_text() for b in page.select(f'#{section} [data-reading-sort]')], ['Newest', 'Most stars', 'Most cited'])
         self.assertFalse(page.select('#papers .preview-table'))
-        self.assertEqual(len(page.select('#papers .reading-entry')), 94)
+        self.assertEqual(len(page.select('#papers .reading-entry')), 95)
+        agentic_robots = page.select_one('#papers .reading-entry a[href="https://arxiv.org/abs/2610.20442"]').find_parent(class_='reading-entry')
+        self.assertIn('Towards Agentic Robots: Model, Data, Environment, and Harness', agentic_robots.get_text())
+        self.assertIsNotNone(agentic_robots.find('a', href='https://github.com/chonghanqin/Awesome-Agentic-Robots'))
         self.assertEqual(len(page.select('#articles .reading-entry')), 8)
         for card in page.select('.reading-entry'):
             link_labels = [a.get_text(strip=True) for a in card.select('.reading-links a')]
@@ -198,7 +204,7 @@ class WebsiteTest(unittest.TestCase):
             self.assertTrue(row.select_one('td:first-child a img')['alt'])
             self.assertIsNotNone(row.select_one('details.entry-notes summary'))
         tool_tables = [t for t in project_source.select('table') if 'Deployment & evidence' in [h.get_text() for h in t.select('th')]]
-        self.assertEqual(sum(len(t.select('tbody tr')) for t in tool_tables), 16)
+        self.assertEqual(sum(len(t.select('tbody tr')) for t in tool_tables), 17)
         for table in tool_tables:
             self.assertEqual([h.get_text() for h in table.select('th')], ['Resource', 'Role', 'Interface', 'Deployment & evidence', 'Official source'])
             for row in table.select('tbody tr'):
