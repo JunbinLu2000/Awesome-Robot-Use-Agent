@@ -443,7 +443,9 @@
     "institutions": [
       {
         "name": "PrimeBot Research Institute",
-        "url": ""
+        "url": "https://www.primebot.com/",
+        "logo": "institutions/3ee8cf04812a.png",
+        "logo_source": "https://www.primebot.com/favicon.ico"
       },
       {
         "name": "Peking University",
@@ -696,7 +698,9 @@
     "institutions": [
       {
         "name": "UC Berkeley",
-        "url": "https://www.berkeley.edu/"
+        "url": "https://www.berkeley.edu/",
+        "logo": "institutions/ed145e7420a6.ico",
+        "logo_source": "https://brand.berkeley.edu/favicon.ico"
       },
       {
         "name": "NVIDIA",
@@ -743,7 +747,9 @@
     "institutions": [
       {
         "name": "X-Era Lab",
-        "url": ""
+        "url": "https://www.x-era.com/",
+        "logo": "institutions/7dbfd93170d9.ico",
+        "logo_source": "https://www.x-era.com/favicon.ico"
       },
       {
         "name": "Sun Yat-sen University",
@@ -997,7 +1003,9 @@
     "institutions": [
       {
         "name": "UC Berkeley",
-        "url": "https://www.berkeley.edu/"
+        "url": "https://www.berkeley.edu/",
+        "logo": "institutions/ed145e7420a6.ico",
+        "logo_source": "https://brand.berkeley.edu/favicon.ico"
       },
       {
         "name": "Impossible Research",
@@ -3281,7 +3289,9 @@
     "institutions": [
       {
         "name": "Shanghai Jiao Tong University",
-        "url": "https://www.sjtu.edu.cn/"
+        "url": "https://www.sjtu.edu.cn/",
+        "logo": "institutions/18ff21907047.png",
+        "logo_source": "https://www.sjtu.edu.cn/resource/assets/img/ico/favicon.png"
       },
       {
         "name": "Shanghai AI Laboratory",
@@ -3331,7 +3341,9 @@
     "institutions": [
       {
         "name": "Harvard University",
-        "url": "https://www.harvard.edu/"
+        "url": "https://www.harvard.edu/",
+        "logo": "institutions/f3ed3ed51789.ico",
+        "logo_source": "https://www.harvard.edu/favicon.ico"
       }
     ],
     "publication": {
@@ -3539,7 +3551,9 @@
     "institutions": [
       {
         "name": "Darwin Agent Team",
-        "url": "https://github.com/Darwin-Agent"
+        "url": "https://github.com/Darwin-Agent",
+        "logo": "institutions/c8d0b8d8bb66.png",
+        "logo_source": "https://github.com/Darwin-Agent.png?size=64"
       }
     ],
     "publication": {
@@ -3620,7 +3634,10 @@
     "date_source": "https://arxiv.org/abs/2609.39915",
     "institutions": [
       {
-        "name": "Harbin Institute of Technology (Shenzhen)"
+        "name": "Harbin Institute of Technology (Shenzhen)",
+        "url": "https://www.hitsz.edu.cn/",
+        "logo": "institutions/cd7198bb7dfc.ico",
+        "logo_source": "https://www.hitsz.edu.cn/_upload/tpl/00/0d/13/template13/favicon.ico"
       },
       {
         "name": "Pengcheng Laboratory"
@@ -3675,7 +3692,9 @@
     "institutions": [
       {
         "name": "Hong Kong University of Science and Technology",
-        "url": "https://hkust.edu.hk/"
+        "url": "https://hkust.edu.hk/",
+        "logo": "institutions/0d36aeb3c8ca.ico",
+        "logo_source": "https://hkust.edu.hk/themes/custom/hkust/favicon.ico"
       },
       {
         "name": "Chinese University of Hong Kong",
@@ -3960,7 +3979,10 @@
     ],
     "institutions": [
       {
-        "name": "Aether AI"
+        "name": "Aether AI",
+        "url": "https://github.com/AetherLabsAI",
+        "logo": "institutions/9dcedfaa3467.png",
+        "logo_source": "https://github.com/AetherLabsAI.png?size=64"
       },
       {
         "name": "University of California, San Diego"
@@ -4023,7 +4045,9 @@
     "institutions": [
       {
         "name": "University of Notre Dame",
-        "url": "https://www.nd.edu/"
+        "url": "https://www.nd.edu/",
+        "logo": "institutions/68b19447e679.png",
+        "logo_source": "https://static.nd.edu/images/monogram/gold/monogram-32.png"
       },
       {
         "name": "University of California San Diego",
@@ -4108,7 +4132,10 @@
     "date_source": "https://arxiv.org/abs/2610.07969",
     "institutions": [
       {
-        "name": "The Hong Kong University of Science and Technology (Guangzhou)"
+        "name": "The Hong Kong University of Science and Technology (Guangzhou)",
+        "url": "https://hkust-gz.edu.cn/",
+        "logo": "institutions/165d75ecdf16.png",
+        "logo_source": "https://material.hkust-gz.edu.cn/wp-content/uploads/2023/04/cropped-favicon-1-1-192x192.png"
       },
       {
         "name": "Xiaomi Robotics"
@@ -4310,7 +4337,9 @@
     "institutions": [
       {
         "name": "University College London",
-        "url": "https://www.ucl.ac.uk/"
+        "url": "https://www.ucl.ac.uk/",
+        "logo": "institutions/bb6b4e753049.ico",
+        "logo_source": "https://cdn.ucl.ac.uk/favicons/favicon.ico"
       },
       {
         "name": "Carnegie Mellon University",
@@ -4407,10 +4436,15 @@
     "institutions": [
       {
         "name": "The Chinese University of Hong Kong",
-        "url": "https://www.cuhk.edu.hk/"
+        "url": "https://www.cuhk.edu.hk/",
+        "logo": "institutions/019914e9f09f.ico",
+        "logo_source": "https://www.cuhk.edu.hk/favicon.ico"
       },
       {
-        "name": "The Hong Kong University of Science and Technology (Guangzhou)"
+        "name": "The Hong Kong University of Science and Technology (Guangzhou)",
+        "url": "https://hkust-gz.edu.cn/",
+        "logo": "institutions/165d75ecdf16.png",
+        "logo_source": "https://material.hkust-gz.edu.cn/wp-content/uploads/2023/04/cropped-favicon-1-1-192x192.png"
       },
       {
         "name": "Knowin AI",
@@ -4618,7 +4652,9 @@
     "institutions": [
       {
         "name": "Zhejiang University",
-        "url": "https://www.zju.edu.cn/"
+        "url": "https://www.zju.edu.cn/",
+        "logo": "institutions/0ee75557079d.ico",
+        "logo_source": "https://www.zju.edu.cn/_upload/tpl/0b/bf/3007/template3007/favicon.ico"
       },
       {
         "name": "Shenzhen University",
@@ -4668,7 +4704,9 @@
     "institutions": [
       {
         "name": "UC Berkeley",
-        "url": "https://www.berkeley.edu/"
+        "url": "https://www.berkeley.edu/",
+        "logo": "institutions/ed145e7420a6.ico",
+        "logo_source": "https://brand.berkeley.edu/favicon.ico"
       },
       {
         "name": "Amazon FAR"
@@ -4756,7 +4794,10 @@
     "date_source": "https://arxiv.org/abs/2610.01178",
     "institutions": [
       {
-        "name": "University of California, San Diego"
+        "name": "University of California, San Diego",
+        "url": "https://ucsd.edu/",
+        "logo": "institutions/0bf8c6d8f262.ico",
+        "logo_source": "https://ucsd.edu/favicon.ico"
       },
       {
         "name": "University of Texas at Austin"
@@ -4798,7 +4839,10 @@
     "date_source": "https://arxiv.org/abs/2609.39018",
     "institutions": [
       {
-        "name": "Hexafuture Inc."
+        "name": "Hexafuture Inc.",
+        "url": "https://github.com/HexaFuture",
+        "logo": "institutions/44ce34d2d383.jpg",
+        "logo_source": "https://github.com/HexaFuture.png?size=64"
       },
       {
         "name": "Peking University",
@@ -4845,10 +4889,15 @@
     "institutions": [
       {
         "name": "The Chinese University of Hong Kong",
-        "url": "https://www.cuhk.edu.hk/"
+        "url": "https://www.cuhk.edu.hk/",
+        "logo": "institutions/019914e9f09f.ico",
+        "logo_source": "https://www.cuhk.edu.hk/favicon.ico"
       },
       {
-        "name": "The Hong Kong University of Science and Technology (Guangzhou)"
+        "name": "The Hong Kong University of Science and Technology (Guangzhou)",
+        "url": "https://hkust-gz.edu.cn/",
+        "logo": "institutions/165d75ecdf16.png",
+        "logo_source": "https://material.hkust-gz.edu.cn/wp-content/uploads/2023/04/cropped-favicon-1-1-192x192.png"
       },
       {
         "name": "Knowin AI",
@@ -4880,7 +4929,10 @@
     "date_source": "https://arxiv.org/abs/2609.39507",
     "institutions": [
       {
-        "name": "Institute of Trustworthy Embodied AI, Fudan University"
+        "name": "Institute of Trustworthy Embodied AI, Fudan University",
+        "url": "https://www.fudan.edu.cn/",
+        "logo": "institutions/9e6d695284ef.ico",
+        "logo_source": "https://www.fudan.edu.cn/_upload/tpl/00/0e/14/template14/images/favicon.ico"
       },
       {
         "name": "Shanghai Innovation Institute",
@@ -4928,7 +4980,10 @@
     "date_source": "https://arxiv.org/abs/2609.11308",
     "institutions": [
       {
-        "name": "KU Leuven"
+        "name": "KU Leuven",
+        "url": "https://www.kuleuven.be/",
+        "logo": "institutions/644d8005a15e.png",
+        "logo_source": "https://stijl.kuleuven.be/releases/latest/img/favicon.png"
       },
       {
         "name": "Meituan Inc."
@@ -4998,7 +5053,10 @@
     "date_source": "https://arxiv.org/abs/2606.04226",
     "institutions": [
       {
-        "name": "Université de Montréal"
+        "name": "Université de Montréal",
+        "url": "https://www.umontreal.ca/",
+        "logo": "institutions/e634d3c30520.png",
+        "logo_source": "https://www.umontreal.ca/favicon-32x32.png"
       },
       {
         "name": "Mila - Quebec AI Institute"
@@ -5023,7 +5081,10 @@
     "date_source": "https://arxiv.org/abs/2603.03148",
     "institutions": [
       {
-        "name": "Hochschule Bonn-Rhein-Sieg"
+        "name": "Hochschule Bonn-Rhein-Sieg",
+        "url": "https://www.h-brs.de/",
+        "logo": "institutions/bfc20819f840.ico",
+        "logo_source": "https://www.h-brs.de/themes/custom/hbrs/favicon.ico"
       },
       {
         "name": "Chalmers University of Technology"
@@ -5053,7 +5114,10 @@
     "date_source": "https://arxiv.org/abs/2601.19510",
     "institutions": [
       {
-        "name": "Technology Innovation Institute"
+        "name": "Technology Innovation Institute",
+        "url": "https://www.tii.ae/",
+        "logo": "institutions/edfc01c52473.ico",
+        "logo_source": "https://www.tii.ae/themes/custom/tech/favicon.ico"
       },
       {
         "name": "Dublin City University"
@@ -5086,7 +5150,9 @@
     "institutions": [
       {
         "name": "Jilin University",
-        "url": "https://www.jlu.edu.cn/"
+        "url": "https://www.jlu.edu.cn/",
+        "logo": "institutions/fbef33bd5b08.ico",
+        "logo_source": "https://www.jlu.edu.cn/favicon.ico"
       },
       {
         "name": "Harvard University",
@@ -5214,7 +5280,10 @@
     "date_source": "https://arxiv.org/abs/2502.01536",
     "institutions": [
       {
-        "name": "Tsinghua University"
+        "name": "Tsinghua University",
+        "url": "https://www.tsinghua.edu.cn/",
+        "logo": "institutions/896430aee7f5.ico",
+        "logo_source": "https://www.tsinghua.edu.cn/favicon.ico"
       },
       {
         "name": "Shanghai Qi Zhi Institute"
@@ -5248,7 +5317,10 @@
     "date_source": "https://arxiv.org/abs/2403.03949",
     "institutions": [
       {
-        "name": "Massachusetts Institute of Technology"
+        "name": "Massachusetts Institute of Technology",
+        "url": "https://www.mit.edu/",
+        "logo": "institutions/48b327b71a4b.ico",
+        "logo_source": "https://www.mit.edu/themes/mit/assets/favicon/favicon.ico"
       },
       {
         "name": "University of Washington"
@@ -5282,7 +5354,10 @@
     "date_source": "https://arxiv.org/abs/2610.00854",
     "institutions": [
       {
-        "name": "Hong Kong University of Science and Technology (Guangzhou)"
+        "name": "Hong Kong University of Science and Technology (Guangzhou)",
+        "url": "https://hkust-gz.edu.cn/",
+        "logo": "institutions/165d75ecdf16.png",
+        "logo_source": "https://material.hkust-gz.edu.cn/wp-content/uploads/2023/04/cropped-favicon-1-1-192x192.png"
       },
       {
         "name": "The Chinese University of Hong Kong"
@@ -5345,7 +5420,10 @@
     "date_source": "https://arxiv.org/abs/2610.12369",
     "institutions": [
       {
-        "name": "Nanyang Technological University"
+        "name": "Nanyang Technological University",
+        "url": "https://www.ntu.edu.sg/",
+        "logo": "institutions/e6e97fc8806a.png",
+        "logo_source": "https://www.ntu.edu.sg/ResourcePackages/NTU/assets/images/favicon.png"
       },
       {
         "name": "Ropedia"
@@ -5379,7 +5457,25 @@
       "year": 2026,
       "source": "https://arxiv.org/abs/2609.39207",
       "checked_at": "2026-10-15"
-    }
+    },
+    "institutions": [
+      {
+        "name": "NVIDIA",
+        "url": "https://www.nvidia.com/",
+        "logo": "institutions/479f42ca565a.ico",
+        "logo_source": "https://www.nvidia.com/favicon.ico"
+      },
+      {
+        "name": "University of California, San Diego",
+        "url": "https://ucsd.edu/",
+        "logo": "institutions/0bf8c6d8f262.ico",
+        "logo_source": "https://ucsd.edu/favicon.ico"
+      },
+      {
+        "name": "The University of Texas at Austin",
+        "url": "https://www.utexas.edu/"
+      }
+    ]
   },
   "https://robouse.ai/hub/leaderboard/": {
     "date": "2026-10-15",
@@ -5419,7 +5515,36 @@
       "year": 2026,
       "source": "https://arxiv.org/abs/2610.20442",
       "checked_at": "2026-10-15"
-    }
+    },
+    "institutions": [
+      {
+        "name": "MMLab, The Chinese University of Hong Kong",
+        "url": "https://www.cuhk.edu.hk/",
+        "logo": "institutions/019914e9f09f.ico",
+        "logo_source": "https://www.cuhk.edu.hk/favicon.ico"
+      },
+      {
+        "name": "Fudan University",
+        "url": "https://www.fudan.edu.cn/",
+        "logo": "institutions/9e6d695284ef.ico",
+        "logo_source": "https://www.fudan.edu.cn/_upload/tpl/00/0e/14/template14/images/favicon.ico"
+      },
+      {
+        "name": "NovaXBot"
+      },
+      {
+        "name": "Tsinghua University",
+        "url": "https://www.tsinghua.edu.cn/"
+      },
+      {
+        "name": "Zhejiang University",
+        "url": "https://www.zju.edu.cn/"
+      },
+      {
+        "name": "Sun Yat-sen University",
+        "url": "https://www.sysu.edu.cn/"
+      }
+    ]
   },
   "https://arxiv.org/abs/2610.10479": {
     "date": "2026-10-07",
@@ -5439,7 +5564,10 @@
     "date_source": "https://arxiv.org/abs/2610.10479",
     "institutions": [
       {
-        "name": "HKUST (Guangzhou)"
+        "name": "HKUST (Guangzhou)",
+        "url": "https://hkust-gz.edu.cn/",
+        "logo": "institutions/165d75ecdf16.png",
+        "logo_source": "https://material.hkust-gz.edu.cn/wp-content/uploads/2023/04/cropped-favicon-1-1-192x192.png"
       },
       {
         "name": "Sun Yat-sen University"
@@ -5471,7 +5599,10 @@
     "date_source": "https://arxiv.org/abs/2610.18867",
     "institutions": [
       {
-        "name": "Navers Lab, Einsia.AI"
+        "name": "Navers Lab, Einsia.AI",
+        "url": "https://lab.einsia.ai/",
+        "logo": "institutions/6c9403a98c29.svg",
+        "logo_source": "https://lab.einsia.ai/favicon.svg"
       },
       {
         "name": "Tsinghua University"
