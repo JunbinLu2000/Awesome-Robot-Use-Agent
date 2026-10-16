@@ -78,13 +78,17 @@ class WebsiteTest(unittest.TestCase):
             self.assertEqual(len(page.select(f'#{ident} .entry')), count)
         self.assertNotIn('Closed-source multimodal model families', page.select_one('#projects').get_text())
         disclosures = page.select('#projects details.project-group')
-        self.assertEqual([len(d.select('.entry')) for d in disclosures], [9, 14, 28, 61])
+        self.assertEqual([len(d.select('.entry')) for d in disclosures], [10, 14, 28, 61])
         self.assertEqual([d.has_attr('open') for d in disclosures], [False, False, False, True])
         policy_eval = disclosures[2].find("a", href="https://github.com/anonymous-report-421/eval-of-gpt-6-astra-as-policy").find_parent(class_="entry")
         self.assertIn("10 RoboDojo tasks", policy_eval.get_text())
         self.assertIsNotNone(policy_eval.find("a", href="https://github.com/anonymous-report-421/eval-of-gpt-6-astra-as-policy/tree/main/public_results"))
         self.assertTrue(all(d.find('summary', recursive=False) for d in disclosures))
         self.assertEqual([d.select_one('summary > h4').get_text() for d in disclosures[:3]], ['Systems & Frameworks', 'Environment & Sandbox', 'Tools & Utilities'])
+        kinex = disclosures[0].find('a', href='https://github.com/stacx-lab/kinex').find_parent(class_='entry')
+        self.assertIn('Kinex', kinex.get_text())
+        self.assertIsNotNone(kinex.find('a', href='https://stacx-lab.github.io/kinex/'))
+        self.assertIsNotNone(kinex.find('a', href='https://stacx-lab.github.io/kinex/docs/'))
         rax = disclosures[0].find('a', href='https://github.com/robot-agent-exploration/rax').find_parent(class_='entry')
         self.assertIn('RAX', rax.get_text())
         self.assertIsNotNone(rax.find('a', href='https://robot-agent-exploration.com/rax.pdf'))
@@ -213,7 +217,7 @@ class WebsiteTest(unittest.TestCase):
             self.assertTrue(row.select_one('td:first-child a img')['alt'])
             self.assertIsNotNone(row.select_one('details.entry-notes summary'))
         tool_tables = [t for t in project_source.select('table') if 'Deployment & evidence' in [h.get_text() for h in t.select('th')]]
-        self.assertEqual(sum(len(t.select('tbody tr')) for t in tool_tables), 17)
+        self.assertEqual(sum(len(t.select('tbody tr')) for t in tool_tables), 18)
         for table in tool_tables:
             self.assertEqual([h.get_text() for h in table.select('th')], ['Resource', 'Role', 'Interface', 'Deployment & evidence', 'Official source'])
             for row in table.select('tbody tr'):
