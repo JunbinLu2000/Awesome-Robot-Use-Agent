@@ -74,11 +74,11 @@ class WebsiteTest(unittest.TestCase):
         self.assertTrue(all(img.get('align') == 'texttop' for img in page.select('#learning-resources img[alt="YouTube"]')))
         self.assertLess(source.index('\n## Benchmarks\n'), source.index('\n## Learning Resources\n'))
         self.assertLess(source.index('\n## Learning Resources\n'), source.index('\n## 🤝 Contributing\n'))
-        for ident, count in [('articles', 8), ('papers', 97), ('datasets', 5), ('benchmarks-1', 30)]:
+        for ident, count in [('articles', 8), ('papers', 98), ('datasets', 5), ('benchmarks-1', 30)]:
             self.assertEqual(len(page.select(f'#{ident} .entry')), count)
         self.assertNotIn('Closed-source multimodal model families', page.select_one('#projects').get_text())
         disclosures = page.select('#projects details.project-group')
-        self.assertEqual([len(d.select('.entry')) for d in disclosures], [10, 14, 28, 61])
+        self.assertEqual([len(d.select('.entry')) for d in disclosures], [13, 14, 29, 61])
         self.assertEqual([d.has_attr('open') for d in disclosures], [False, False, False, True])
         policy_eval = disclosures[2].find("a", href="https://github.com/anonymous-report-421/eval-of-gpt-6-astra-as-policy").find_parent(class_="entry")
         self.assertIn("10 RoboDojo tasks", policy_eval.get_text())
@@ -125,7 +125,7 @@ class WebsiteTest(unittest.TestCase):
             self.assertEqual(dates, sorted(dates, reverse=True))
             self.assertEqual([b.get_text() for b in page.select(f'#{section} [data-reading-sort]')], ['Newest', 'Most stars', 'Most cited'])
         self.assertFalse(page.select('#papers .preview-table'))
-        self.assertEqual(len(page.select('#papers .reading-entry')), 97)
+        self.assertEqual(len(page.select('#papers .reading-entry')), 98)
         embodied_evo = page.select_one('#papers .reading-entry a[href="https://arxiv.org/abs/2610.18867"]').find_parent(class_='reading-entry')
         self.assertIn('EmbodiedEvo: Self-Evolving Coding Agent For Physical Intelligence', embodied_evo.get_text())
         self.assertIsNotNone(embodied_evo.select_one('.reading-cover img[src="https://raw.githubusercontent.com/Einsia/EmbodiedEvo/main/docs/images/embodiedevo-hero.png"]'))
@@ -217,7 +217,7 @@ class WebsiteTest(unittest.TestCase):
             self.assertTrue(row.select_one('td:first-child a img')['alt'])
             self.assertIsNotNone(row.select_one('details.entry-notes summary'))
         tool_tables = [t for t in project_source.select('table') if 'Deployment & evidence' in [h.get_text() for h in t.select('th')]]
-        self.assertEqual(sum(len(t.select('tbody tr')) for t in tool_tables), 18)
+        self.assertEqual(sum(len(t.select('tbody tr')) for t in tool_tables), 22)
         for table in tool_tables:
             self.assertEqual([h.get_text() for h in table.select('th')], ['Resource', 'Role', 'Interface', 'Deployment & evidence', 'Official source'])
             for row in table.select('tbody tr'):

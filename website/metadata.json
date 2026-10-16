@@ -5614,5 +5614,47 @@
       "source": "https://arxiv.org/abs/2610.18867",
       "checked_at": "2026-10-15"
     }
+  },
+  "https://arxiv.org/abs/2610.13862": {
+    "date": "2026-10-09",
+    "authors": [
+      "Fabio Hübel",
+      "Adam Lilja",
+      "Yue Yin",
+      "Siming He",
+      "Claire Tomlin",
+      "Shankar Sastry",
+      "Jonas Frey",
+      "Marco Pavone"
+    ],
+    "source": "https://arxiv.org/pdf/2610.13862",
+    "date_source": "https://arxiv.org/abs/2610.13862",
+    "institutions": [
+      {
+        "name": "Stanford University",
+        "url": "https://www.stanford.edu/",
+        "logo": "institutions/eccb970ba1ac.ico",
+        "logo_source": "https://www.stanford.edu/favicon.ico?favicon.1h-97ahdncqw4.ico?dpl=e0307e29a4bd0658de805e4bf8025919a41623ccc5ec3da1d44b234ab20d3abc366161336638666139306335393630303039373562383736"
+      },
+      {
+        "name": "University of California, Berkeley",
+        "url": "https://www.berkeley.edu/",
+        "logo": "institutions/ed145e7420a6.ico",
+        "logo_source": "https://brand.berkeley.edu/favicon.ico"
+      },
+      {
+        "name": "NVIDIA",
+        "url": "https://www.nvidia.com/",
+        "logo": "institutions/479f42ca565a.ico",
+        "logo_source": "https://www.nvidia.com/favicon.ico"
+      }
+    ],
+    "publication": {
+      "venue": "arXiv",
+      "year": 2026,
+      "source": "https://arxiv.org/abs/2610.13862",
+      "verification_note": "Preprint; the IEEE submission statement does not establish acceptance.",
+      "checked_at": "2026-10-16"
+    }
   }
 }

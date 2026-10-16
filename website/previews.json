@@ -442,5 +442,9 @@
   "https://arxiv.org/abs/2610.18867": {
     "image": "https://raw.githubusercontent.com/Einsia/EmbodiedEvo/main/docs/images/embodiedevo-hero.png",
     "source": "https://lab.einsia.ai/embodiedevo/"
+  },
+  "https://arxiv.org/abs/2610.13862": {
+    "image": "previews/bt-agent.jpg",
+    "source": "https://arxiv.org/pdf/2610.13862"
   }
 }
