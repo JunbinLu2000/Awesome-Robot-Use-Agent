@@ -68,7 +68,7 @@ class WebsiteTest(unittest.TestCase):
         self.assertIsNotNone(page.select_one('[data-filter="learning-resources"]'))
         self.assertEqual(len(page.select('#learning-resources .entry')), 4)
         self.assertEqual(len(page.select('#learning-resources img[alt="YouTube"]')), 4)
-        self.assertEqual([a['href'] for a in page.select('#learning-resources .entry strong a')], ['https://www.youtube.com/watch?v=Hco-tpjsEuc', 'https://www.youtube.com/watch?v=9YioJzz0tpk', 'https://www.youtube.com/watch?v=UwfjzyLnvMg', 'https://www.youtube.com/watch?v=6YnLB0XbTnI'])
+        self.assertEqual([a['href'] for a in page.select('#learning-resources .entry strong a')], ['https://www.youtube.com/watch?v=Hco-tpjsEuc', 'https://www.youtube.com/watch?v=9YioJzz0tpk', 'https://www.youtube.com/playlist?list=PLSN0qpDfUvTM', 'https://www.youtube.com/watch?v=6YnLB0XbTnI'])
         self.assertEqual([e['data-date'] for e in page.select('#learning-resources .entry')], ['2026-10-10', '2025-02-08', '2026-09-08', '2026-08-03'])
         self.assertTrue(all(item.find('a', href=True).find('img', alt='YouTube') for item in page.select('#learning-resources .entry')))
         self.assertTrue(all(img.get('align') == 'texttop' for img in page.select('#learning-resources img[alt="YouTube"]')))
