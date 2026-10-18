@@ -5656,5 +5656,45 @@
       "verification_note": "Preprint; the IEEE submission statement does not establish acceptance.",
       "checked_at": "2026-10-16"
     }
+  },
+  "https://arxiv.org/abs/2610.21453": {
+    "date": "2026-10-15",
+    "authors": [
+      "Zixuan Wang",
+      "Yuqi Liu",
+      "Yuxin Chen",
+      "Sengqiao Yang",
+      "Jinhui Ye",
+      "Pengguang Chen",
+      "Changsheng Lu",
+      "Shu Liu",
+      "Bei Yu",
+      "Jiaya Jia"
+    ],
+    "source": "https://arxiv.org/pdf/2610.21453",
+    "date_source": "https://arxiv.org/abs/2610.21453",
+    "institutions": [
+      {
+        "name": "Hong Kong University of Science and Technology",
+        "url": "https://hkust.edu.hk/",
+        "logo": "institutions/0d36aeb3c8ca.ico",
+        "logo_source": "https://hkust.edu.hk/themes/custom/hkust/favicon.ico"
+      },
+      {
+        "name": "The Chinese University of Hong Kong",
+        "url": "https://www.cuhk.edu.hk/",
+        "logo": "institutions/019914e9f09f.ico",
+        "logo_source": "https://www.cuhk.edu.hk/favicon.ico"
+      },
+      {
+        "name": "SmartMore"
+      }
+    ],
+    "publication": {
+      "venue": "arXiv",
+      "year": 2026,
+      "source": "https://arxiv.org/abs/2610.21453",
+      "checked_at": "2026-10-18"
+    }
   }
 }
