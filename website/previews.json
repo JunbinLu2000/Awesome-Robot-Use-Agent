@@ -447,8 +447,44 @@
     "image": "previews/bt-agent.jpg",
     "source": "https://arxiv.org/pdf/2610.13862"
   },
+  "https://arxiv.org/abs/2610.19913": {
+    "image": "previews/9514be420471d33a.jpg",
+    "source": "https://arxiv.org/pdf/2610.19913"
+  },
+  "https://arxiv.org/abs/2610.19677": {
+    "image": "previews/645b4cf378ea5a5a.jpg",
+    "source": "https://arxiv.org/pdf/2610.19677"
+  },
+  "https://arxiv.org/abs/2610.19600": {
+    "image": "previews/6a9a016fc187a040.jpg",
+    "source": "https://arxiv.org/pdf/2610.19600"
+  },
+  "https://arxiv.org/abs/2610.18874": {
+    "image": "previews/225f95bae0733ff6.jpg",
+    "source": "https://arxiv.org/pdf/2610.18874"
+  },
+  "https://arxiv.org/abs/2610.18352": {
+    "image": "previews/892c5b5e920abe46.jpg",
+    "source": "https://arxiv.org/pdf/2610.18352"
+  },
+  "https://arxiv.org/abs/2610.09228": {
+    "image": "previews/93d559d78fdbb970.jpg",
+    "source": "https://arxiv.org/pdf/2610.09228"
+  },
+  "https://arxiv.org/abs/2610.14018": {
+    "image": "previews/26d90efac0c84106.jpg",
+    "source": "https://arxiv.org/pdf/2610.14018"
+  },
+  "https://artificialanalysis.ai/articles/aa-robotics": {
+    "image": "assets/previews/aa-robotics.jpg",
+    "source": "https://artificialanalysiscdn.com/article-assets/2026/aa-robotics.jpg"
+  },
   "https://arxiv.org/abs/2610.21453": {
     "image": "previews/carryon.jpg",
     "source": "https://arxiv.org/pdf/2610.21453"
+  },
+  "https://arxiv.org/abs/2608.30821": {
+    "image": "previews/077c1aca1b8bce01.jpg",
+    "source": "https://arxiv.org/pdf/2608.30821"
   }
 }
