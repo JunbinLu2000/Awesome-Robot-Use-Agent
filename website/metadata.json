@@ -5992,5 +5992,41 @@
       "source": "https://arxiv.org/abs/2608.30821",
       "checked_at": "2026-10-18"
     }
+  },
+  "https://arxiv.org/abs/2610.14224": {
+    "date": "2026-10-09",
+    "authors": [
+      "Ruiyao Xu",
+      "Yanfei Chen",
+      "Zhongying CuiZhu",
+      "Bhavana Dalvi Mishra",
+      "Yifei Ming",
+      "Han Yu",
+      "Rujun Han",
+      "Chen-Yu Lee",
+      "Tomas Pfister"
+    ],
+    "source": "https://arxiv.org/pdf/2610.14224",
+    "date_source": "https://arxiv.org/abs/2610.14224",
+    "institutions": [
+      {
+        "name": "Northwestern University",
+        "url": "https://www.northwestern.edu/",
+        "logo": "institutions/441aa302ff60.ico",
+        "logo_source": "https://common.northwestern.edu/favicon.ico"
+      },
+      {
+        "name": "Google Cloud AI Research",
+        "url": "https://cloud.google.com/ai",
+        "logo": "institutions/google.png",
+        "logo_source": "https://www.gstatic.com/images/branding/googleg_gradient/1x/googleg_gradient_standard_20dp.png"
+      }
+    ],
+    "publication": {
+      "venue": "arXiv",
+      "year": 2026,
+      "source": "https://arxiv.org/abs/2610.14224",
+      "checked_at": "2026-10-19"
+    }
   }
 }
