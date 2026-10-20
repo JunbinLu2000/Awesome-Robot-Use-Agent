@@ -6064,5 +6064,78 @@
       "source": "https://github.com/mll-lab-nu/embodied-first-exam",
       "checked_at": "2026-10-20"
     }
+  },
+  "https://arxiv.org/abs/2610.15782": {
+    "date": "2026-10-11",
+    "authors": [
+      "Songze Li",
+      "Haoming Gu",
+      "Ziyang Gong",
+      "Zhitong Wang",
+      "Gengze Zhou",
+      "Zun Wang",
+      "Yuhan Zhu",
+      "Tianxiang Jiang",
+      "Juanzi Li",
+      "Qi Wu",
+      "Weinan Zhang",
+      "Yu Qiao",
+      "Wenwei Zhang",
+      "Yi Wang"
+    ],
+    "source": "https://arxiv.org/pdf/2610.15782",
+    "date_source": "https://arxiv.org/abs/2610.15782",
+    "institutions": [
+      {
+        "name": "Fudan University",
+        "url": "https://www.fudan.edu.cn/",
+        "logo": "institutions/9e6d695284ef.ico",
+        "logo_source": "https://www.fudan.edu.cn/_upload/tpl/00/0e/14/template14/images/favicon.ico"
+      },
+      {
+        "name": "Shanghai AI Laboratory",
+        "url": "https://www.shlab.org.cn/",
+        "logo": "institutions/304ced2da780.ico",
+        "logo_source": "https://www.shlab.org.cn/static/asset/img/favicon.ico"
+      },
+      {
+        "name": "Harbin Institute of Technology"
+      },
+      {
+        "name": "Shanghai Jiao Tong University",
+        "url": "https://www.sjtu.edu.cn/",
+        "logo": "institutions/18ff21907047.png",
+        "logo_source": "https://www.sjtu.edu.cn/resource/assets/img/ico/favicon.png"
+      },
+      {
+        "name": "Tsinghua University",
+        "url": "https://www.tsinghua.edu.cn/",
+        "logo": "institutions/896430aee7f5.ico",
+        "logo_source": "https://www.tsinghua.edu.cn/favicon.ico"
+      },
+      {
+        "name": "University of Adelaide",
+        "url": "https://www.adelaide.edu.au/"
+      },
+      {
+        "name": "University of North Carolina at Chapel Hill"
+      },
+      {
+        "name": "Nanjing University",
+        "url": "https://www.nju.edu.cn/",
+        "logo": "institutions/3e8ca55becad.png",
+        "logo_source": "https://www.nju.edu.cn/images/favicon.png"
+      },
+      {
+        "name": "University of Science and Technology of China",
+        "url": "https://www.ustc.edu.cn/"
+      }
+    ],
+    "publication": {
+      "venue": "arXiv",
+      "year": 2026,
+      "source": "https://arxiv.org/abs/2610.15782",
+      "checked_at": "2026-10-20"
+    }
   }
 }
