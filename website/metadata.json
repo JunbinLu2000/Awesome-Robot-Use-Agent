@@ -6137,5 +6137,72 @@
       "source": "https://arxiv.org/abs/2610.15782",
       "checked_at": "2026-10-20"
     }
+  },
+  "https://arxiv.org/abs/2610.26663": {
+    "date": "2026-10-19",
+    "authors": [
+      "Shengbang Liu",
+      "Zhengye Du",
+      "Zhilong Wan",
+      "Honghao Su",
+      "Chenxiang Xia",
+      "Chang Ge",
+      "Jinyang Xiao",
+      "Nan Wang",
+      "Zhipeng Hu",
+      "Huining Yuan",
+      "Shu'ang Yu",
+      "Yue Chen",
+      "Tianxing Chen",
+      "Chuankang Li",
+      "Maoqing Yao",
+      "Wenbo Ding",
+      "Yu Wang",
+      "Guanghui Ren",
+      "Chao Yu"
+    ],
+    "source": "https://arxiv.org/pdf/2610.26663",
+    "date_source": "https://arxiv.org/abs/2610.26663",
+    "institutions": [
+      {
+        "name": "Tsinghua University",
+        "url": "https://www.tsinghua.edu.cn/",
+        "logo": "institutions/896430aee7f5.ico",
+        "logo_source": "https://www.tsinghua.edu.cn/favicon.ico"
+      },
+      {
+        "name": "AgiBot",
+        "url": "https://www.agibot.com/",
+        "logo": "institutions/32bd315d6044.ico",
+        "logo_source": "https://www.agibot.com/favicon.ico"
+      },
+      {
+        "name": "Xspark AI"
+      },
+      {
+        "name": "Sun Yat-sen University",
+        "url": "https://www.sysu.edu.cn/",
+        "logo": "institutions/b51657fb0009.ico",
+        "logo_source": "https://www.sysu.edu.cn/favicon.ico"
+      },
+      {
+        "name": "Peking University",
+        "url": "https://www.pku.edu.cn/",
+        "logo": "institutions/b26f74c5b62b.ico",
+        "logo_source": "https://www.pku.edu.cn/favicon.ico"
+      },
+      {
+        "name": "University of Hong Kong",
+        "url": "https://www.hku.hk/",
+        "logo": "institutions/d8645ef2ec72.png",
+        "logo_source": "https://www.hku.hk/etc.clientlibs/hkucms/clientlibs/clientlib-site/resources/icon-192x192.png"
+      }
+    ],
+    "publication": {
+      "venue": "arXiv",
+      "year": 2026,
+      "source": "https://arxiv.org/abs/2610.26663",
+      "checked_at": "2026-10-20"
+    }
   }
 }
