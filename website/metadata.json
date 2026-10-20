@@ -6028,5 +6028,41 @@
       "source": "https://arxiv.org/abs/2610.14224",
       "checked_at": "2026-10-19"
     }
+  },
+  "https://www.embodied-first-exam.ai/": {
+    "date": "2026-10-19",
+    "authors": [
+      "Kangrui Wang",
+      "Changhe Chen",
+      "Qineng Wang",
+      "Pingyue Zhang",
+      "Chi Gui",
+      "Feishi Wang",
+      "Canyu Chen",
+      "Wenli Xiao",
+      "Xiaoyu Huang",
+      "Tonghe Zhang",
+      "Linjie Li",
+      "Yiyou Sun",
+      "Mingkai Deng",
+      "Jinyu Hou",
+      "Eric P. Xing",
+      "Huaxiu Yao",
+      "Zhiwen Fan",
+      "Yuejiang Liu",
+      "Jiajun Wu",
+      "Yuke Zhu",
+      "Guanya Shi",
+      "Ruohan Zhang",
+      "Manling Li"
+    ],
+    "source": "https://github.com/mll-lab-nu/embodied-first-exam",
+    "date_source": "https://github.com/mll-lab-nu/embodied-first-exam#news",
+    "publication": {
+      "venue": "Benchmark Release",
+      "year": 2026,
+      "source": "https://github.com/mll-lab-nu/embodied-first-exam",
+      "checked_at": "2026-10-20"
+    }
   }
 }
