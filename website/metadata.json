@@ -6204,5 +6204,193 @@
       "source": "https://arxiv.org/abs/2610.26663",
       "checked_at": "2026-10-20"
     }
+  },
+  "https://research.nvidia.com/labs/gear/flora/assets/paper/flora.pdf": {
+    "date": "2026-10-20",
+    "authors": [
+      "Sicong Leng",
+      "Yunze Man",
+      "Zhiqi Li",
+      "Jing Wang",
+      "Yuhe Zhang",
+      "Ryan Punamiya",
+      "Siddharth Patki",
+      "Kaiyuan Zheng",
+      "Zi-ang Cao",
+      "Zhiding Yu",
+      "Sifei Liu",
+      "Danfei Xu",
+      "Ben Levin",
+      "Jan Kautz",
+      "Yuke Zhu",
+      "Johan Bjorck",
+      "Linxi \"Jim\" Fan"
+    ],
+    "source": "https://research.nvidia.com/labs/gear/flora/",
+    "date_source": "https://research.nvidia.com/labs/gear/flora/assets/paper/flora.pdf",
+    "institutions": [
+      {
+        "name": "NVIDIA",
+        "url": "https://www.nvidia.com/",
+        "logo": "institutions/479f42ca565a.ico",
+        "logo_source": "https://www.nvidia.com/favicon.ico"
+      }
+    ],
+    "publication": {
+      "venue": "Technical Report",
+      "year": 2026,
+      "source": "https://research.nvidia.com/labs/gear/flora/assets/paper/flora.pdf",
+      "checked_at": "2026-10-21"
+    }
+  },
+  "https://arxiv.org/abs/2610.26848": {
+    "date": "2026-10-19",
+    "authors": [
+      "Zekai Li",
+      "Jiayi Yu",
+      "Jinlu Zhang",
+      "Luyang Niu",
+      "Zekun Qi",
+      "Jun Zheng",
+      "Xuchuan Chen",
+      "Dairu Liu",
+      "Yintianrun Zhang",
+      "He Wang",
+      "Li Yi"
+    ],
+    "source": "https://arxiv.org/pdf/2610.26848",
+    "date_source": "https://arxiv.org/abs/2610.26848",
+    "institutions": [
+      {
+        "name": "Galbot",
+        "url": "https://www.galbot.com/",
+        "logo": "institutions/7ae4f4841bb4.gif",
+        "logo_source": "https://www.galbot.com/favicon.ico"
+      }
+    ],
+    "publication": {
+      "venue": "arXiv",
+      "year": 2026,
+      "source": "https://arxiv.org/abs/2610.26848",
+      "checked_at": "2026-10-21"
+    }
+  },
+  "https://arxiv.org/abs/2610.22736": {
+    "date": "2026-10-15",
+    "authors": [
+      "Qianwei Wang",
+      "Ce Zhang",
+      "Zhanpeng Luo",
+      "Pengpeng Su",
+      "Shuo Yang",
+      "Hao Xu"
+    ],
+    "source": "https://arxiv.org/pdf/2610.22736",
+    "date_source": "https://arxiv.org/abs/2610.22736",
+    "institutions": [
+      {
+        "name": "Nanjing University",
+        "url": "https://www.nju.edu.cn/",
+        "logo": "institutions/3e8ca55becad.png",
+        "logo_source": "https://www.nju.edu.cn/images/favicon.png"
+      },
+      {
+        "name": "Princeton University",
+        "url": "https://www.princeton.edu/",
+        "logo": "institutions/a0494f75d64f.png",
+        "logo_source": "https://www.princeton.edu/themes/custom/hobbes/icons/favicon-16x16.png"
+      },
+      {
+        "name": "Carnegie Mellon University",
+        "url": "https://www.cmu.edu/",
+        "logo": "institutions/3c0141232566.ico",
+        "logo_source": "https://www.cmu.edu/themes/custom/cmu_base/favicon.ico"
+      },
+      {
+        "name": "Johns Hopkins University"
+      },
+      {
+        "name": "Mondo Robotics"
+      }
+    ],
+    "publication": {
+      "venue": "arXiv",
+      "year": 2026,
+      "source": "https://arxiv.org/abs/2610.22736",
+      "checked_at": "2026-10-21"
+    }
+  },
+  "https://arxiv.org/abs/2610.27045": {
+    "date": "2026-10-19",
+    "authors": [
+      "Weinan Zhang",
+      "Chunhua Shen",
+      "Tianfan Xue",
+      "Bin Zhao",
+      "Bingqi Jiang",
+      "Zihan Guo",
+      "Zicai Cui",
+      "Yang Li",
+      "Ming Zhou",
+      "Xinyuan Chen",
+      "Lihe Ding",
+      "Xiao Chen",
+      "Yujin Wang",
+      "Shi Guo",
+      "Junting Dong",
+      "Tao Lu",
+      "Xing Shen",
+      "Haoyu Guo",
+      "Yao Mu",
+      "Haiyong Yu",
+      "Haoxiang Ma",
+      "Fuxian Huang",
+      "Qiaojun Yu",
+      "Yunsong Zhou",
+      "Kailin Li",
+      "Zirui Wang",
+      "Yufei Xue",
+      "Weishuai Zeng",
+      "Tao Huang",
+      "Zhigang Wang",
+      "Junli Liu",
+      "Pengyuan Wu",
+      "Pingrui Zhang",
+      "Haotian Wang",
+      "Dongzhan Zhou",
+      "Jiafei Cao",
+      "Feng Yuan",
+      "Xinyi Ye",
+      "Quanli Xuan",
+      "Mulin Yu",
+      "Shangding Gu",
+      "Kaiwen Song",
+      "Dong Wang",
+      "Jiarui Li",
+      "Kehui Liu",
+      "Zhongjie Jia",
+      "Dongjiang Li",
+      "Jiacheng Bao",
+      "Haoran Yang",
+      "Zhaoqing Chen",
+      "Yiming Sun",
+      "Bowen Zhou"
+    ],
+    "source": "https://arxiv.org/pdf/2610.27045",
+    "date_source": "https://arxiv.org/abs/2610.27045",
+    "institutions": [
+      {
+        "name": "Shanghai AI Laboratory",
+        "url": "https://www.shlab.org.cn/",
+        "logo": "institutions/304ced2da780.ico",
+        "logo_source": "https://www.shlab.org.cn/static/asset/img/favicon.ico"
+      }
+    ],
+    "publication": {
+      "venue": "arXiv",
+      "year": 2026,
+      "source": "https://arxiv.org/abs/2610.27045",
+      "checked_at": "2026-10-21"
+    }
   }
 }

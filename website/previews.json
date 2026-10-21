@@ -494,5 +494,21 @@
   "https://arxiv.org/abs/2610.15782": {
     "image": "previews/b53f2f037fbc3af0.jpg",
     "source": "https://arxiv.org/pdf/2610.15782"
+  },
+  "https://research.nvidia.com/labs/gear/flora/assets/paper/flora.pdf": {
+    "image": "previews/086e60904976c3f9.jpg",
+    "source": "https://research.nvidia.com/labs/gear/flora/assets/paper/flora.pdf"
+  },
+  "https://arxiv.org/abs/2610.26848": {
+    "image": "previews/4f6e0f0aac76178e.jpg",
+    "source": "https://arxiv.org/pdf/2610.26848"
+  },
+  "https://arxiv.org/abs/2610.22736": {
+    "image": "previews/9d0572e9bc9e0421.jpg",
+    "source": "https://arxiv.org/pdf/2610.22736"
+  },
+  "https://arxiv.org/abs/2610.27045": {
+    "image": "previews/acc51b4e38b49276.jpg",
+    "source": "https://arxiv.org/pdf/2610.27045"
   }
 }
