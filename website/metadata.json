@@ -3139,13 +3139,12 @@
       "Mike Zheng Shou"
     ],
     "publication": {
-      "venue": "ArXiv",
+      "venue": "arXiv",
       "year": 2026,
-      "verification_note": "Venue supplied by maintainer; arXiv identifier not independently verified. No conference or journal acceptance verified.",
-      "checked_at": "2026-09-14",
-      "source": "https://github.com/showlab/Awesome-Multimodal-Embodied-Agent/blob/main/assets/Awesome_Multimodal_Embodied_Agent.pdf"
+      "source": "https://arxiv.org/abs/2610.30108",
+      "checked_at": "2026-10-23"
     },
-    "date_source": "https://doi.org/10.6084/m9.figshare.33529048"
+    "date_source": "https://doi.org/10.6084/m9.figshare.33529048.v1"
   },
   "https://arxiv.org/abs/2605.26637": {
     "source": "https://arxiv.org/html/2605.26637v1",
@@ -5485,8 +5484,9 @@
       "venue": "Leaderboard",
       "year": 2026,
       "source": "https://robouse.ai/hub/leaderboard/",
-      "checked_at": "2026-10-15"
-    }
+      "checked_at": "2026-10-23"
+    },
+    "implementation_source": "https://github.com/benchflow-ai/robouse"
   },
   "https://arxiv.org/abs/2610.20442": {
     "date": "2026-10-14",
@@ -6391,6 +6391,362 @@
       "year": 2026,
       "source": "https://arxiv.org/abs/2610.27045",
       "checked_at": "2026-10-21"
+    }
+  },
+  "https://arxiv.org/abs/2610.30043": {
+    "date": "2026-10-21",
+    "authors": [
+      "Yicheng Xu",
+      "Zhikai Xu",
+      "Ziyuan Chen",
+      "Yuhang Dong",
+      "Tao Zhang",
+      "Zhucun Xue",
+      "Yong Liu",
+      "Jiangning Zhang"
+    ],
+    "source": "https://arxiv.org/pdf/2610.30043",
+    "date_source": "https://arxiv.org/abs/2610.30043",
+    "institutions": [
+      {
+        "name": "Zhejiang University",
+        "url": "https://www.zju.edu.cn/",
+        "logo": "institutions/0ee75557079d.ico",
+        "logo_source": "https://www.zju.edu.cn/_upload/tpl/0b/bf/3007/template3007/favicon.ico"
+      },
+      {
+        "name": "Fudan University",
+        "url": "https://www.fudan.edu.cn/",
+        "logo": "institutions/9e6d695284ef.ico",
+        "logo_source": "https://www.fudan.edu.cn/_upload/tpl/00/0e/14/template14/images/favicon.ico"
+      }
+    ],
+    "publication": {
+      "venue": "arXiv",
+      "year": 2026,
+      "source": "https://arxiv.org/abs/2610.30043",
+      "checked_at": "2026-10-23"
+    }
+  },
+  "https://arxiv.org/abs/2610.28589": {
+    "date": "2026-10-20",
+    "authors": [
+      "Xinxin Liu",
+      "Bingxin Xu",
+      "Wenrui Bao",
+      "Ming Li",
+      "Wentao Bao",
+      "Chen Chen",
+      "Yuzhang Shang"
+    ],
+    "source": "https://arxiv.org/pdf/2610.28589",
+    "date_source": "https://arxiv.org/abs/2610.28589",
+    "institutions": [
+      {
+        "name": "University of Central Florida",
+        "url": "https://www.ucf.edu/"
+      },
+      {
+        "name": "University of Southern California",
+        "url": "https://www.usc.edu/",
+        "logo": "institutions/53cf0e0d6efd.png",
+        "logo_source": "https://www.usc.edu/wp-content/themes/usc-communications-2023/favicon/favicon-32x32.png"
+      },
+      {
+        "name": "Michigan State University"
+      }
+    ],
+    "publication": {
+      "venue": "arXiv",
+      "year": 2026,
+      "source": "https://arxiv.org/abs/2610.28589",
+      "checked_at": "2026-10-23"
+    }
+  },
+  "https://arxiv.org/abs/2610.25114": {
+    "date": "2026-10-18",
+    "authors": [
+      "Jingwen Bai",
+      "Guochao Bai",
+      "Canbo Zhang",
+      "Shuangqi Li",
+      "Minchao Hu",
+      "Weichun Huang",
+      "Shuang Liu"
+    ],
+    "source": "https://arxiv.org/pdf/2610.25114",
+    "date_source": "https://arxiv.org/abs/2610.25114",
+    "institutions": [
+      {
+        "name": "Beijing Ou Rui Ling Shi Technology Co., Ltd."
+      },
+      {
+        "name": "ChangingTek Robotics Technology (Suzhou) Co., Ltd."
+      },
+      {
+        "name": "Shanghai Yunfan Intelligent Control Robot Technology Co., Ltd."
+      }
+    ],
+    "publication": {
+      "venue": "arXiv",
+      "year": 2026,
+      "source": "https://arxiv.org/abs/2610.25114",
+      "checked_at": "2026-10-23"
+    }
+  },
+  "https://arxiv.org/abs/2610.23479": {
+    "date": "2026-10-16",
+    "authors": [
+      "Hongcheng Gao",
+      "Alex Zhou",
+      "Jay Zhu",
+      "Zelin Zheng",
+      "Shijia Ge",
+      "Xiping Li",
+      "Di Wu",
+      "Yazhe Wang",
+      "Jianshu Zeng",
+      "Xuan Shangguan",
+      "Yongli Wang",
+      "Yexing Wan",
+      "Lingyu He",
+      "Zhiqi Jia",
+      "Sihang Wu",
+      "Xiao He"
+    ],
+    "source": "https://arxiv.org/pdf/2610.23479",
+    "date_source": "https://arxiv.org/abs/2610.23479",
+    "institutions": [
+      {
+        "name": "HexaFuture",
+        "url": "https://github.com/HexaFuture",
+        "logo": "institutions/44ce34d2d383.jpg",
+        "logo_source": "https://github.com/HexaFuture.png?size=64"
+      }
+    ],
+    "publication": {
+      "venue": "arXiv",
+      "year": 2026,
+      "source": "https://arxiv.org/abs/2610.23479",
+      "checked_at": "2026-10-23"
+    }
+  },
+  "https://arxiv.org/abs/2610.23098": {
+    "date": "2026-10-16",
+    "authors": [
+      "Haoyang Luo",
+      "Junhao Qin",
+      "Jingyan Cao",
+      "Yi Huang",
+      "Guangjie Yang",
+      "Xiaoyu Chen",
+      "Haotao Lu",
+      "Tianxiang Gui",
+      "Ye Shi",
+      "Jingya Wang"
+    ],
+    "source": "https://arxiv.org/pdf/2610.23098",
+    "date_source": "https://arxiv.org/abs/2610.23098",
+    "institutions": [
+      {
+        "name": "ShanghaiTech University"
+      },
+      {
+        "name": "InstAdapt"
+      }
+    ],
+    "publication": {
+      "venue": "arXiv",
+      "year": 2026,
+      "source": "https://arxiv.org/abs/2610.23098",
+      "checked_at": "2026-10-23"
+    }
+  },
+  "https://arxiv.org/abs/2610.23288": {
+    "date": "2026-10-16",
+    "authors": [
+      "Zicheng Liu",
+      "Haochen Wu",
+      "Jiawei He",
+      "Suyun Zhao",
+      "Huan Yang",
+      "Cheng Chi",
+      "Hao Tang"
+    ],
+    "source": "https://arxiv.org/pdf/2610.23288",
+    "date_source": "https://arxiv.org/abs/2610.23288",
+    "institutions": [
+      {
+        "name": "Peking University",
+        "url": "https://www.pku.edu.cn/",
+        "logo": "institutions/b26f74c5b62b.ico",
+        "logo_source": "https://www.pku.edu.cn/favicon.ico"
+      },
+      {
+        "name": "Renmin University of China"
+      },
+      {
+        "name": "Beijing XYZ Embodied AI Co., Ltd."
+      },
+      {
+        "name": "Beijing Academy of Artificial Intelligence",
+        "url": "https://www.baai.ac.cn/"
+      }
+    ],
+    "publication": {
+      "venue": "arXiv",
+      "year": 2026,
+      "source": "https://arxiv.org/abs/2610.23288",
+      "checked_at": "2026-10-23"
+    }
+  },
+  "https://arxiv.org/abs/2610.23826": {
+    "date": "2026-10-16",
+    "authors": [
+      "Jiaru Bai",
+      "Yuchi Zhao",
+      "Han Hao",
+      "Miroslav Bogdanovic",
+      "Yang Cao",
+      "Varinia Bernales",
+      "Alán Aspuru-Guzik"
+    ],
+    "source": "https://arxiv.org/pdf/2610.23826",
+    "date_source": "https://arxiv.org/abs/2610.23826",
+    "institutions": [
+      {
+        "name": "University of Toronto",
+        "url": "https://www.utoronto.ca/"
+      },
+      {
+        "name": "Vector Institute for Artificial Intelligence"
+      },
+      {
+        "name": "Acceleration Consortium"
+      },
+      {
+        "name": "Canadian Institute for Advanced Research"
+      },
+      {
+        "name": "NVIDIA",
+        "url": "https://www.nvidia.com/",
+        "logo": "institutions/479f42ca565a.ico",
+        "logo_source": "https://www.nvidia.com/favicon.ico"
+      }
+    ],
+    "publication": {
+      "venue": "arXiv",
+      "year": 2026,
+      "source": "https://arxiv.org/abs/2610.23826",
+      "checked_at": "2026-10-23"
+    }
+  },
+  "https://arxiv.org/abs/2606.16458": {
+    "date": "2026-06-15",
+    "authors": [
+      "Karim Elmaaroufi",
+      "Justin Svegliato",
+      "Sarunas Kalade",
+      "Graham Schelle",
+      "Sanjit A. Seshia",
+      "Matei Zaharia"
+    ],
+    "source": "https://arxiv.org/pdf/2606.16458",
+    "date_source": "https://arxiv.org/abs/2606.16458",
+    "institutions": [
+      {
+        "name": "University of California, Berkeley",
+        "url": "https://www.berkeley.edu/",
+        "logo": "institutions/ed145e7420a6.ico",
+        "logo_source": "https://brand.berkeley.edu/favicon.ico"
+      },
+      {
+        "name": "Embodied Science"
+      },
+      {
+        "name": "AMD"
+      }
+    ],
+    "publication": {
+      "venue": "arXiv",
+      "year": 2026,
+      "source": "https://arxiv.org/abs/2606.16458",
+      "checked_at": "2026-10-23"
+    }
+  },
+  "https://arxiv.org/abs/2610.30051": {
+    "date": "2026-10-21",
+    "authors": [
+      "May Espinola",
+      "Qifan Zhang",
+      "Yu Xiang"
+    ],
+    "source": "https://arxiv.org/pdf/2610.30051",
+    "date_source": "https://arxiv.org/abs/2610.30051",
+    "institutions": [
+      {
+        "name": "The University of Texas at Dallas"
+      }
+    ],
+    "publication": {
+      "venue": "arXiv",
+      "year": 2026,
+      "source": "https://arxiv.org/abs/2610.30051",
+      "checked_at": "2026-10-23"
+    }
+  },
+  "https://arxiv.org/abs/2610.30108": {
+    "source": "https://arxiv.org/pdf/2610.30108",
+    "institutions": [
+      {
+        "name": "National University of Singapore",
+        "url": "https://nus.edu.sg/",
+        "logo": "institutions/nus.png",
+        "logo_source": "https://www.comp.nus.edu.sg/wp-content/uploads/2023/09/cropped-favicon-192x192.png"
+      }
+    ],
+    "date": "2026-10-21",
+    "authors": [
+      "Yanzhe Chen",
+      "Ziyi Yang",
+      "Jifeng Zhu",
+      "Qiming Huang",
+      "Ruihe An",
+      "Peiyao Xu",
+      "Hesen Yang",
+      "Runda Liu",
+      "Chang Gong",
+      "Zhijun Cao",
+      "Zechen Bai",
+      "Wenzheng Zeng",
+      "Yiqi Lin",
+      "Guoqiang Liang",
+      "Kevin Yuchen Ma",
+      "Kevin Qinghong Lin",
+      "Mike Zheng Shou"
+    ],
+    "publication": {
+      "venue": "arXiv",
+      "year": 2026,
+      "source": "https://arxiv.org/abs/2610.30108",
+      "checked_at": "2026-10-23"
+    },
+    "date_source": "https://arxiv.org/abs/2610.30108",
+    "original_release": {
+      "date": "2026-09-10",
+      "source": "https://doi.org/10.6084/m9.figshare.33529048.v1"
+    }
+  },
+  "https://github.com/Winniechen2002/Embodied-Playground#choose-a-benchmark": {
+    "date": "2026-10-16",
+    "source": "https://github.com/Winniechen2002/Embodied-Playground",
+    "date_source": "https://github.com/Winniechen2002/Embodied-Playground",
+    "date_basis": "GitHub repository creation date; no paper publication date is claimed.",
+    "publication": {
+      "venue": "Code release",
+      "year": 2026,
+      "source": "https://github.com/Winniechen2002/Embodied-Playground",
+      "checked_at": "2026-10-23"
     }
   }
 }

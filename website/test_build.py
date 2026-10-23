@@ -74,11 +74,11 @@ class WebsiteTest(unittest.TestCase):
         self.assertTrue(all(img.get('align') == 'texttop' for img in page.select('#learning-resources img[alt="YouTube"]')))
         self.assertLess(source.index('\n## Benchmarks\n'), source.index('\n## Learning Resources\n'))
         self.assertLess(source.index('\n## Learning Resources\n'), source.index('\n## 🤝 Contributing\n'))
-        for ident, count in [('articles', 8), ('papers', 113), ('datasets', 5), ('benchmarks-1', 34)]:
+        for ident, count in [('articles', 8), ('papers', 122), ('datasets', 5), ('benchmarks-1', 37)]:
             self.assertEqual(len(page.select(f'#{ident} .entry')), count)
         self.assertNotIn('Closed-source multimodal model families', page.select_one('#projects').get_text())
         disclosures = page.select('#projects details.project-group')
-        self.assertEqual([len(d.select('.entry')) for d in disclosures], [14, 14, 30, 61])
+        self.assertEqual([len(d.select('.entry')) for d in disclosures], [15, 14, 30, 61])
         self.assertEqual([d.has_attr('open') for d in disclosures], [False, False, False, True])
         policy_eval = disclosures[2].find("a", href="https://github.com/anonymous-report-421/eval-of-gpt-6-astra-as-policy").find_parent(class_="entry")
         self.assertIn("10 RoboDojo tasks", policy_eval.get_text())
@@ -94,8 +94,8 @@ class WebsiteTest(unittest.TestCase):
         self.assertIsNotNone(rax.find('a', href='https://robot-agent-exploration.com/rax.pdf'))
         self.assertNotRegex(page.select_one('#projects').get_text(), r'Browse \d+ resources')
         self.assertEqual(len(page.select('#projects .demo-card')), 61)
-        self.assertEqual(len(page.select('#benchmarks-1 .reading-cover img')), 33)
-        self.assertEqual(len(page.select('#benchmarks-1 .reading-entry')), 34)
+        self.assertEqual(len(page.select('#benchmarks-1 .reading-cover img')), 35)
+        self.assertEqual(len(page.select('#benchmarks-1 .reading-entry')), 37)
         self.assertIsNotNone(page.select_one('#papers .reading-entry a[href="https://arxiv.org/abs/2609.39207"]'))
         self.assertIsNotNone(page.select_one('#benchmarks-1 .reading-entry a[href="https://robouse.ai/hub/leaderboard/"]'))
         self.assertFalse(page.select('#benchmarks-1 .preview-table'))
@@ -111,7 +111,7 @@ class WebsiteTest(unittest.TestCase):
                 self.assertEqual(source_image['src'], rendered_image['src'])
             else:
                 self.assertIsNone(rendered_image)
-                self.assertIn('Robo Use Leaderboard', card.select_one('.reading-cover').get_text(' ', strip=True))
+                self.assertIn(cells[1].strong.get_text(' ', strip=True), card.select_one('.reading-cover').get_text(' ', strip=True))
             for link in row.select('a[href]'):
                 self.assertIsNotNone(card.find('a', href=link['href']), 'Benchmark source link lost')
             notes = cells[4].select_one('.entry-notes')
@@ -125,7 +125,7 @@ class WebsiteTest(unittest.TestCase):
             self.assertEqual(dates, sorted(dates, reverse=True))
             self.assertEqual([b.get_text() for b in page.select(f'#{section} [data-reading-sort]')], ['Newest', 'Most stars', 'Most cited'])
         self.assertFalse(page.select('#papers .preview-table'))
-        self.assertEqual(len(page.select('#papers .reading-entry')), 113)
+        self.assertEqual(len(page.select('#papers .reading-entry')), 122)
         embodied_evo = page.select_one('#papers .reading-entry a[href="https://arxiv.org/abs/2610.18867"]').find_parent(class_='reading-entry')
         self.assertIn('EmbodiedEvo: Self-Evolving Coding Agent For Physical Intelligence', embodied_evo.get_text())
         self.assertIsNotNone(embodied_evo.select_one('.reading-cover img[src="https://raw.githubusercontent.com/Einsia/EmbodiedEvo/main/docs/images/embodiedevo-hero.png"]'))
@@ -191,7 +191,7 @@ class WebsiteTest(unittest.TestCase):
         self.assertEqual(guava_data['data-date'], '2026-06-16')
         self.assertEqual({a['href'] for a in guava_data.select('a[href]')}, {'https://arxiv.org/abs/2606.18363', 'https://guava-harness.github.io/', 'https://arxiv.org/html/2606.18363v1#A1'})
         self.assertIsNotNone(dataset.select_one('a[href="https://huggingface.co/datasets/showlab/Show-Harness-Data"]'))
-        survey_pdf = page.select_one('.reading-links a[href="https://github.com/showlab/Awesome-Multimodal-Embodied-Agent/blob/main/assets/Awesome_Multimodal_Embodied_Agent.pdf"]')
+        survey_pdf = page.select_one('.reading-links a[href="https://arxiv.org/pdf/2610.30108"]')
         self.assertEqual(survey_pdf.get_text(), 'PDF')
         self.assertIn('ArXiv 2026', show_harness.select_one('.reading-publication').get_text())
         self.assertEqual(show_harness.get_text().count(show_harness.select_one('.reading-description').get_text()), 1)
@@ -217,7 +217,7 @@ class WebsiteTest(unittest.TestCase):
             self.assertTrue(row.select_one('td:first-child a img')['alt'])
             self.assertIsNotNone(row.select_one('details.entry-notes summary'))
         tool_tables = [t for t in project_source.select('table') if 'Deployment & evidence' in [h.get_text() for h in t.select('th')]]
-        self.assertEqual(sum(len(t.select('tbody tr')) for t in tool_tables), 23)
+        self.assertEqual(sum(len(t.select('tbody tr')) for t in tool_tables), 24)
         for table in tool_tables:
             self.assertEqual([h.get_text() for h in table.select('th')], ['Resource', 'Role', 'Interface', 'Deployment & evidence', 'Official source'])
             for row in table.select('tbody tr'):

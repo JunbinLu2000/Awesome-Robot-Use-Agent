@@ -510,5 +510,45 @@
   "https://arxiv.org/abs/2610.27045": {
     "image": "previews/acc51b4e38b49276.jpg",
     "source": "https://arxiv.org/pdf/2610.27045"
+  },
+  "https://arxiv.org/abs/2610.30043": {
+    "image": "assets/previews/tarsphere.jpg",
+    "source": "https://arxiv.org/pdf/2610.30043"
+  },
+  "https://arxiv.org/abs/2610.28589": {
+    "image": "previews/agenticroborl.jpg",
+    "source": "https://arxiv.org/pdf/2610.28589"
+  },
+  "https://arxiv.org/abs/2610.25114": {
+    "image": "previews/skill-rsi.jpg",
+    "source": "https://arxiv.org/pdf/2610.25114"
+  },
+  "https://arxiv.org/abs/2610.23479": {
+    "image": "previews/hexashell.jpg",
+    "source": "https://arxiv.org/pdf/2610.23479"
+  },
+  "https://arxiv.org/abs/2610.23098": {
+    "image": "previews/instagent.jpg",
+    "source": "https://arxiv.org/pdf/2610.23098"
+  },
+  "https://arxiv.org/abs/2610.23288": {
+    "image": "previews/coevolve.jpg",
+    "source": "https://arxiv.org/pdf/2610.23288"
+  },
+  "https://arxiv.org/abs/2610.23826": {
+    "image": "previews/self-building-labs.jpg",
+    "source": "https://arxiv.org/pdf/2610.23826"
+  },
+  "https://arxiv.org/abs/2606.16458": {
+    "image": "previews/rho.jpg",
+    "source": "https://arxiv.org/pdf/2606.16458"
+  },
+  "https://arxiv.org/abs/2610.30051": {
+    "image": "assets/previews/llm-libero.jpg",
+    "source": "https://arxiv.org/pdf/2610.30051"
+  },
+  "https://arxiv.org/abs/2610.30108": {
+    "image": "previews/multimodal-embodied-agents.jpg",
+    "source": "https://arxiv.org/pdf/2610.30108"
   }
 }
