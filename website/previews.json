@@ -550,5 +550,69 @@
   "https://arxiv.org/abs/2610.30108": {
     "image": "previews/multimodal-embodied-agents.jpg",
     "source": "https://arxiv.org/pdf/2610.30108"
+  },
+  "https://arxiv.org/abs/2610.31427": {
+    "image": "previews/fast-harness.jpg",
+    "source": "https://arxiv.org/pdf/2610.31427"
+  },
+  "https://arxiv.org/abs/2610.29560": {
+    "image": "previews/sera.jpg",
+    "source": "https://arxiv.org/pdf/2610.29560"
+  },
+  "https://arxiv.org/abs/2610.29329": {
+    "image": "previews/pal.jpg",
+    "source": "https://arxiv.org/pdf/2610.29329"
+  },
+  "https://arxiv.org/abs/2610.30136": {
+    "image": "previews/agentic-wam.jpg",
+    "source": "https://arxiv.org/pdf/2610.30136"
+  },
+  "https://luo-yc17.github.io/OmniBrain-0/assets/OmniBrain-0-Technical-Report.pdf": {
+    "image": "previews/omnibrain-0.jpg",
+    "source": "https://luo-yc17.github.io/OmniBrain-0/assets/OmniBrain-0-Technical-Report.pdf"
+  },
+  "https://arxiv.org/abs/2606.08610": {
+    "image": "previews/harbor-rl.jpg",
+    "source": "https://arxiv.org/pdf/2606.08610"
+  },
+  "https://arxiv.org/abs/2609.38982": {
+    "image": "previews/simex.jpg",
+    "source": "https://arxiv.org/pdf/2609.38982"
+  },
+  "https://arxiv.org/abs/2609.33807": {
+    "image": "assets/previews/codeactionbench.jpg",
+    "source": "https://arxiv.org/pdf/2609.33807"
+  },
+  "https://arxiv.org/abs/2609.30233": {
+    "image": "previews/agenticgenplan.jpg",
+    "source": "https://arxiv.org/pdf/2609.30233"
+  },
+  "https://arxiv.org/abs/2610.17350": {
+    "image": "previews/embodied-astra-robomme.jpg",
+    "source": "https://arxiv.org/pdf/2610.17350"
+  },
+  "https://arxiv.org/abs/2609.39304": {
+    "image": "previews/scale-and-selection.jpg",
+    "source": "https://arxiv.org/pdf/2609.39304"
+  },
+  "https://arxiv.org/abs/2610.17089": {
+    "image": "assets/previews/multinav.jpg",
+    "source": "https://arxiv.org/pdf/2610.17089"
+  },
+  "https://arxiv.org/abs/2610.25287": {
+    "image": "previews/bitter-lesson-robotics.jpg",
+    "source": "https://arxiv.org/pdf/2610.25287"
+  },
+  "https://arxiv.org/abs/2610.27039": {
+    "image": "assets/previews/embodied-playground.jpg",
+    "source": "https://arxiv.org/pdf/2610.27039"
+  },
+  "https://arxiv.org/abs/2610.18792": {
+    "image": "previews/sear-paper.jpg",
+    "source": "https://arxiv.org/pdf/2610.18792"
+  },
+  "https://github.com/Winniechen2002/Embodied-Playground#choose-a-benchmark": {
+    "image": "assets/previews/embodied-playground.jpg",
+    "source": "https://arxiv.org/pdf/2610.27039"
   }
 }
